@@ -1,0 +1,82 @@
+﻿@model List<TaskUser.ViewsModels.Stock.StockViewModels>
+
+@{
+    ViewBag.Title = StockLocalizer.GetLocalizedString("lbl_StockManage");
+    Layout = "_Layout";
+}
+
+<style type="text/css">.container-fuld { }</style>
+
+<div class="container-fuld">
+    
+    <h1 align="center">@StockLocalizer.GetLocalizedString("lbl_StockManage")</h1>
+
+ <table class="table table-bordered table-sm">
+        <thead align="center">
+
+        <tr class="table-primary">
+            <th>
+                @StockLocalizer.GetLocalizedString("lbl_StoreId")
+
+
+            </th>
+            <th>
+                @StockLocalizer.GetLocalizedString("lbl_ProductId")
+
+            </th>
+           
+            <th>
+                @StockLocalizer.GetLocalizedString("lbl_Quantity")
+
+            </th>
+            <th>
+                @StockLocalizer.GetLocalizedString("lbl_manipulation")
+
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <a class="btn" style="color: black" asp-controller="Stock" asp-action="Create">
+            <img src="~/img/addstock.png" alt="Smiley face" height="32" width="32">
+        </a>
+
+
+        @foreach (var item in Model)
+        {
+            <tr align="center">
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Store.StoreName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.ProductName)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                
+                
+                
+                <td>
+                    <a class="btn" style="color: black" asp-controller="Stock" asp-action="Edit" asp-route-storeId="@item.StoreId" asp-route-productId="@item.ProductId">
+                        <img src="~/img/editstock.png" alt="Smiley face" height="32" width="32">
+                    </a> |
+                    <a class="btn" style="color: black" onclick="return confirm('@Localizer.GetLocalizedString("btn_AreYouSureYouWantToDeleteIt?")')" 
+                       asp-controller="Stock" asp-action="Delete" 
+                       asp-route-storeId="@item.StoreId" 
+                       asp-route-productId="@item.ProductId">
+                        <img src="~/img/deletestock.png" alt="Smiley face" height="32" width="32">
+                    </a>
+                </td>
+            </tr>
+@*              <div id='Paging' style="text-align:center"> *@
+@*                  Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) *@
+@*                  of @Model.PageCount *@
+@* *@
+@*                  @Html.PagedListPager(Model, page => Url.Action("Index", new { page })) *@
+@*              </div> *@
+        }
+        </tbody>
+    </table>
+</div>

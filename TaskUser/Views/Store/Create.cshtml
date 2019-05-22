@@ -1,0 +1,85 @@
+﻿@model TaskUser.ViewsModels.Store.StoreViewModels
+
+
+@{
+    ViewBag.Title = StoreLocalizer.GetLocalizedString("lbl_AddStore");
+    Layout = "_Layout";
+}
+
+
+<div class="container">
+    
+    <form method="post" asp-controller="Store" asp-action="Create">
+        <legend>@StoreLocalizer.GetLocalizedString("lbl_AddStore")</legend>
+        @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
+        <div class="form-group col-xs-6">
+            <label>
+                @StoreLocalizer.GetLocalizedString("lbl_StoreName")
+                
+            </label>
+            <input type="text" class="form-control" asp-for="StoreName" placeholder="StoreName" >
+            <span asp-validation-for="StoreName"></span>
+        </div>
+         <div class="form-group col-xs-6">
+             <label>
+                 @StoreLocalizer.GetLocalizedString("lbl_Email")
+                </label>
+             <input type="email" class="form-control" asp-for="Email" placeholder="Email address" >
+             <span asp-validation-for="Email"></span>
+         </div>
+         <div id="subject-select" class="form-group col-xs-12">
+             <label>
+                 @StoreLocalizer.GetLocalizedString("lbl_Phone")
+                 
+             </label>
+             <input type="text" class="form-control" asp-for="Phone" placeholder="Phone" >
+             <span asp-validation-for="Phone"></span>
+         </div>
+        <div id="hidden-other-subject" class="form-group col-xs-6 hidden">
+            <label>
+                @StoreLocalizer.GetLocalizedString("lbl_State")
+            </label>
+            <input type="text" class="form-control" asp-for="State" placeholder="State" />
+            <span asp-validation-for="State"></span>
+        </div>
+        <div class="form-group col-xs-6 hidden">
+            <label>
+                @StoreLocalizer.GetLocalizedString("lbl_Street")
+            </label>
+            <input type="text" class="form-control" asp-for="Street" placeholder="Street" />
+            <span asp-validation-for="Street"></span>
+        </div>
+        <div class="form-group col-xs-6 hidden">
+            <label>
+               @StoreLocalizer.GetLocalizedString("lbl_City")
+            </label>
+            <input type="text" class="form-control" asp-for="City" placeholder="City" />
+            <span asp-validation-for="City"></span>
+        </div>
+        <div class="form-group col-xs-6 hidden">
+            <label>
+               @StoreLocalizer.GetLocalizedString("lbl_Zipcode")
+            </label>
+            <input type="text" class="form-control" asp-for="ZipCode" placeholder="Phone" />
+            <span asp-validation-for="ZipCode"></span>
+        </div>
+         
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+               
+                @StoreLocalizer.GetLocalizedString("btn_AddNewStore")
+            </button>
+        </div>
+    </form>
+    <div class="form-group col-xs-12">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="Index">
+            <img src="~/img/iconback.png" alt="Smiley face" height="42" width="42">
+            @Localizer.GetLocalizedString("btn_GoBackToTheMainPage")
+        </a>
+    </div>
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

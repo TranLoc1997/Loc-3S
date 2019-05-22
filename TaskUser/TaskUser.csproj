@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
+    <PackageReference Include="ReflectionIT.Mvc.Paging" Version="3.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\img" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\documentation\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\documentation\documentation.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face10.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face11.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face12.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face13.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face14.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face15.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face16.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face17.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face18.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face19.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face20.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face21.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face22.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face23.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face24.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face25.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face26.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face27.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\faces\face9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\charts\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\charts\chartjs.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\forms\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\forms\basic_elements.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\icons\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\icons\mdi.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\lock-screen.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\login-2.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\login.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\register-2.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\samples\register.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\tables\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\tables\basic-table.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\ui-features\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\ui-features\buttons.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\pages\ui-features\typography.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\partials\_footer.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\partials\_navbar.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\partials\_settings-panel.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\partials\_sidebar.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\plugin-overrides\_data-tables.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_badges.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_bootstrap-progress.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_buttons.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_cards.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_checkbox-radio.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_dropdown.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_forms.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_icons.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_lists.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\components\_tables.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\landing-screens\_auth.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_animation.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_badges.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_blockqoute.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_buttons.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_cards.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\mixins\_misc.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\style.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_background.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_demo.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_fonts.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_footer.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_functions.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_layouts.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_misc.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_navbar.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_reset.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_sidebar.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_typography.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_utilities.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_variables.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\scss\_vertical-wrapper.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\base\vendor.bundle.base.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\base\vendor.bundle.base.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\chart.js\Chart.min.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\datatables.net-bs4\dataTables.bootstrap4.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\datatables.net-bs4\dataTables.bootstrap4.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\datatables.net\jquery.dataTables.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\css\materialdesignicons.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\fonts\materialdesignicons-webfont.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\fonts\materialdesignicons-webfont.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\fonts\materialdesignicons-webfont.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\fonts\materialdesignicons-webfont.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\.gitignore" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\CHANGELOG.md" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\gulpfile.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\images\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\js\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\package.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\preview.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\theme\README.md" />
+  </ItemGroup>
+</Project>

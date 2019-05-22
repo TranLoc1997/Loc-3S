@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="TankUserLoc@localhost" uuid="654fed37-23db-47c0-be62-68d54db37bdd">
+      <database-info product="Microsoft SQL Server" version="14.00.3076" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.2 for SQL Server" driver-version="7.2.1.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>SA</user-name>
+      <introspection-schemas>TankUserLoc:dbo</introspection-schemas>
+    </data-source>
+  </component>
+</project>

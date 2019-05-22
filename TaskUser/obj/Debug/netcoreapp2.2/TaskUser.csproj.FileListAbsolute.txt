@@ -1,0 +1,705 @@
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Controllers.UserController.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.AddValidator.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.AddValidator.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.EditValidator.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.EditValidator.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.LoginValidator.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.LoginValidator.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.PasswordValidator.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.PasswordValidator.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.Shared._layout.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.Shared._layout.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Create.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Create.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Edit.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Edit.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.EditPassword.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.EditPassword.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Index.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Index.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.IndexLogin.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.IndexLogin.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.SelectLanguagePartial.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/EditPassword.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/IndexLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Controllers.UserController.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.AddValidator.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.AddValidator.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.EditValidator.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.EditValidator.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.LoginValidator.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.LoginValidator.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.PasswordValidator.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Validator.PasswordValidator.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.Shared._layout.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.Shared._layout.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Create.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Create.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Edit.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Edit.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.EditPassword.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.EditPassword.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Index.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.Index.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.IndexLogin.en-US.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.IndexLogin.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.Views.User.SelectLanguagePartial.vi-VN.resources
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/EditPassword.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/IndexLogin.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/tuan.dv/Downloads/TaskUser-20190424T074239Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/IndexLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.SharedResource.vi-VN.resources
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.cs
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.SharedResource.en-US.resources
+/home/local/3SI/loc.tv/Downloads/TaskUser-20190424T111900Z-001/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangeMail.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.SharedResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.SharedResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+<<<<<<< HEAD
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/TaskUser/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+=======
+>>>>>>> master
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.en-US.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.vi-VN.resources
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/RiderProjects/VanLoc-3s/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.en-US.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UsersValidatorResource.vi-VN.resources
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/en-US/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+C:/Users/Vanlo/OneDrive/Máy tính/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error401.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error404.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_msgLayout.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.deps.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.runtimeconfig.dev.json
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/bin/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csprojAssemblyReference.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.BrandResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CategoryResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.CommonResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.LoginResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.PasswordResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.ProductResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StockResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.StoreResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Resources.UserResource.vi-VN.resources
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.GenerateResource.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CoreCompileInputs.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorAssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfoInputs.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.AssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/vi-VN/TaskUser.resources.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.input.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.TagHelpers.output.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorCoreGenerate.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error401.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error404.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Login/IndexLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CkeckUserPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LayoutLogin.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_msgLayout.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SibaPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/SelectLanguagePartial.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cache
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.RazorTargetAssemblyInfo.cs
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.Views.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.dll
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.pdb
+/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/Debug/netcoreapp2.2/TaskUser.csproj.CopyComplete

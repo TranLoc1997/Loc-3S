@@ -1,0 +1,70 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/TaskUser.csproj",
+    "projectName": "TaskUser",
+    "projectPath": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/TaskUser.csproj",
+    "outputPath": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[6.0.0, )"
+        },
+        "FluentValidation.AspNetCore": {
+          "target": "Package",
+          "version": "[8.2.2, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "PagedList.Mvc": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "ReflectionIT.Mvc.Paging": {
+          "target": "Package",
+          "version": "[3.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

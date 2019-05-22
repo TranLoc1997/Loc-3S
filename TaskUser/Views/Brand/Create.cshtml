@@ -1,0 +1,43 @@
+﻿@model TaskUser.ViewsModels.Brand.BrandViewsModels
+
+
+@{
+    ViewBag.Title =  BrandLocalizer.GetLocalizedString("lbl_AddBrand");
+    Layout = "_Layout";
+}
+
+
+<div class="container">
+   
+    <form method="post" asp-controller="Brand" asp-action="Create">
+        <legend>
+            @BrandLocalizer.GetLocalizedString("lbl_AddBrand")
+           </legend>
+        @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
+        <div class="form-group col-xs-6">
+            <label>
+                @BrandLocalizer.GetLocalizedString("lbl_BrandName")
+            </label>
+            <input type="text" class="form-control" asp-for="BrandName" placeholder="BrandName" >
+            <span asp-validation-for="BrandName"></span>
+        </div>
+                       
+                       
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+                @BrandLocalizer.GetLocalizedString("lbl_AddNewBrand")
+            </button>
+        </div>
+    </form>
+    <div class="form-group col-xs-12">
+        <a class="nav-link text-dark" asp-area="" asp-controller="brand" asp-action="Index">
+            <img src="~/img/iconback.png" alt="Smiley face" height="42" width="42">
+            @Localizer.GetLocalizedString("btn_GoBackToTheMainPage")
+        </a>
+    </div>
+              
+</div>
+              
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

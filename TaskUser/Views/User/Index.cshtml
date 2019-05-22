@@ -1,0 +1,109 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@model List<TaskUser.ViewsModels.User.UserViewsModels>
+<style type="text/css"></style>
+
+
+<link rel="stylesheet" href="~/css/indexcs.css" />
+
+@{
+    ViewBag.Title =UserLocalizer.GetLocalizedString("lbl_UserManage");
+    Layout = "_Layout";
+}
+
+
+<div class="container-fuld">
+    
+    <div class="alert" >
+        <h1  align="center">
+           @UserLocalizer.GetLocalizedString("lbl_UserManage")
+        </h1>
+        
+
+    </div>
+ <table class="table table-bordered table-sm">
+        <thead align="center">
+
+        <tr class="table-primary">
+            <th>
+                ID
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_Name")
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_Email")
+             
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_Phone")
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_IsActiver")
+               </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_StoreId")
+                
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_Role")
+                
+            </th>
+            <th>
+                @UserLocalizer.GetLocalizedString("lbl_manipulation")
+                
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <a class="btn" style="color: black" asp-action="Create">
+            <img src="~/img/add.png" alt="Smiley face" height="32" width="32">
+        </a>
+
+        @foreach (var item in Model)
+        {
+            <tr  align="center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActiver)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Store.StoreName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Role)
+                </td>
+                <td>
+                    @* <!-- Button trigger modal --> *@
+                    <button type="button" class="btn" data-toggle="ajax-modal" data-target="#add-contact" data-url="@Url.Action("EditPassword", new { id = item.Id})">
+                        <img src="~/img/uppassword.png" alt="Smiley face" height="32" width="32">
+                    </button>
+                    |
+                    
+                    <a class="btn" style="color: black" asp-action="Edit" asp-route-id="@item.Id">
+                        <img src="~/img/Edit.png" alt="Smiley face" height="32" width="32">
+                    </a> |
+                    <a class="btn" style="color: black" onclick="return confirm('@Localizer.GetLocalizedString("btn_AreYouSureYouWantToDeleteIt?")')" asp-action="Delete" asp-route-id="@item.Id">
+                        <img src="~/img/delete.png" alt="Smiley face" height="32" width="32">
+                    </a>
+                </td>
+            </tr>
+
+        }
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Modal placeholder -->
+<div id="modal-placeholder"></div>

@@ -1,0 +1,38 @@
+﻿@model TaskUser.ViewsModels.Brand.BrandViewsModels
+
+@{
+    ViewBag.Title = BrandLocalizer.GetLocalizedString("lbl_BrandName");
+    Layout = "_Layout";
+}
+
+<div class="container">
+    
+    <form method="post" asp-controller="Brand" asp-action="Edit">
+        <legend>
+            @BrandLocalizer.GetLocalizedString("lbl_EditBrand")
+           
+        </legend>
+        @* <input type="hidden" class="form-control" asp-for="Id"> *@
+        <div class="form-group col-xs-6">
+            <label>
+                @BrandLocalizer.GetLocalizedString("lbl_BrandName")
+            </label>
+            <input type="text" class="form-control" asp-for="BrandName" placeholder="BrandName" >
+            <span asp-validation-for="BrandName"></span>
+        </div>
+                       
+                       
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+                @BrandLocalizer.GetLocalizedString("btn_Edit")
+            </button>
+        </div>
+    </form>
+    <div class="form-group col-xs-12">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Brand" asp-action="Index">
+            <img src="~/img/iconback.png" alt="Smiley face" height="42" width="42">
+            @Localizer.GetLocalizedString("btn_GoBackToTheMainPage")
+        </a>
+    </div>
+              
+</div>

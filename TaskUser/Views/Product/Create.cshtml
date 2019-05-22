@@ -1,0 +1,61 @@
+﻿@model TaskUser.ViewsModels.Product.ProductViewsModels
+
+
+@{
+    ViewBag.Title =ProductLocalizer.GetLocalizedString("lbl_EditProduct");
+    Layout = "_Layout";
+}
+
+
+<div class="container">
+   
+    <form method="post" asp-controller="Product" enctype="multipart/form-data" asp-action="Create">
+       <legend>@ProductLocalizer.GetLocalizedString("lbl_AddProduct")</legend>
+        @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_BrandId")</label>
+            <select class="form-control" asp-for="BrandId" asp-items="@ViewBag.BrandId">
+                @* <option asp-for="StoreId" >@ViewBag.StoreId[""]</option> *@
+            </select>
+            
+            <span asp-validation-for="BrandId"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_CategoryId")</label>
+            <select class="form-control" asp-for="CategoryId" asp-items="@ViewBag.CategoryId"></select>
+            <span asp-validation-for="CategoryId"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_ModelYear")</label>
+            <input type="text" class="form-control" asp-for="ModelYear" placeholder="ModelYear" >
+            <span asp-validation-for="ModelYear"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_ProductName")</label>
+            <input type="text" class="form-control" asp-for="ProductName" placeholder="ProductName" >
+            <span asp-validation-for="ProductName"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_Picture")</label>
+            <input type="file" class="form-control" asp-for="PictureFile" placeholder="Picture" >
+            <span asp-validation-for="PictureFile"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@ProductLocalizer.GetLocalizedString("lbl_ListPrice")</label>
+            <input type="number" class="form-control" asp-for="ListPrice" placeholder="ListPrice" >
+            <span asp-validation-for="ListPrice"></span>
+        </div>
+                       
+                       
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">@ProductLocalizer.GetLocalizedString("btn_AddNewProduct")</button>
+        </div>
+    </form>
+    <div class="form-group col-xs-12">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">
+            <img src="~/img/iconback.png" alt="Smiley face" height="42" width="42">
+            @Localizer.GetLocalizedString("btn_GoBackToTheMainPage")
+        </a>
+    </div>
+              
+</div>

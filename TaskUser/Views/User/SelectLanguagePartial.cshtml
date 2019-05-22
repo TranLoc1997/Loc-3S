@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+
+@inject IViewLocalizer Localizer
+@inject IOptions<RequestLocalizationOptions> LocalizationOptions
+
+
+@{
+    var cultures = LocalizationOptions.Value.SupportedUICultures.ToList();
+    
+}
+
+<a class="nav-link" data-toggle="collapse" href="#language" aria-expanded="false" aria-controls="language">
+    <i class="mdi mdi-web menu-icon"></i>
+    <span class="menu-title">@Localizer["Language"]</span> 
+    <i class="menu-arrow"></i>
+</a>
+<div class="collapse" id="language">
+    <ul class="nav flex-column sub-menu">
+    @foreach (var item in cultures)
+    {
+        var img = item.Name + ".png";
+        <li class="btn btn-default">
+            <a asp-area=""
+               asp-controller="Login"
+               asp-action="SetLanguage"
+               asp-route-culture="@item.Name"
+               asp-route-returnUrl="@Context.Request.Path">
+                <img src="~/img/@img"/>
+                @item.NativeName
+            </a>
+        </li>
+    }
+    </ul>
+</div>

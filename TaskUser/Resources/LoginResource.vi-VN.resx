@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_SignIn">
+        <value>Đăng Nhập</value>
+    </data>
+    <data name="lbl_Password">
+        <value>Mật Khẩu</value>
+    </data>
+    <data name="lbl_UserName">
+        <value>Tên đăng nhập</value>
+    </data>
+    <data name="btn_RememberMe">
+        <value>Nhớ Mật khẩu</value>
+    </data>
+    <data name="btn_ForgotPassword?">
+        <value>Quên mật khẩu ?</value>
+    </data>
+    <data name="btn_Login">
+        <value>Đăng Nhập</value>
+    </data>
+    <data name="msg_LengthFrom1To100Characters">
+        <value>
+            Độ dài từ 1 đến 100 ký tự</value>
+    </data>
+    <data name="msg_EmailIsNotAvalidEmailAddress">
+        <value>
+            Email không phải là địa chỉ email hợp lệ</value>
+    </data>
+    <data name="msg_NotEmpty">
+        <value>
+            Không được bõ trống</value>
+    </data>
+    <data name="msg_MinimumLengthOf6Characters">
+        <value>
+            Mật Khẩu tối thiểu 6 ký tự !
+        </value>
+    </data>
+    <data name="msg_PasswordMustContainBothLetterSandNumbers.">
+        <value>
+            Mật Khẩu Bắt Buộc Phải Có Chữ Và Số !
+        </value>
+    </data>
+    <data name="msg_EmailAlreadyExists">
+        <value>
+            Email đã tồn tại
+        </value>
+    </data>
+</root>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="btn_Product">
+        <value>
+            Product
+        </value>
+    </data>
+    <data name="btn_Store">
+        <value>
+           Store
+        </value>
+    </data>
+    <data name="btn_Category">
+        <value>
+            Category
+        </value>
+    </data>
+    <data name="btn_User">
+        <value>
+            User
+        </value>
+    </data>
+    <data name="btn_Management">
+        <value>
+            Management
+        </value>
+    </data>
+    <data name="btn_Brand">
+        <value>
+            Brand
+        </value>
+    </data>
+    <data name="btn_Stock">
+        <value>
+            Stock
+        </value>
+        
+        
+    </data>
+    <data name="msg_DeleteSuccessfuly">
+        <value>
+            Delete Successfuly
+        </value>
+    </data>
+    <data name="msg_AddSuccessfuly">
+        <value>
+            Add Successfuly
+        </value>
+    </data>
+    <data name="msg_EditSuccessfuly">
+        <value>
+            Edit Successfuly
+        </value>
+    </data>
+   
+    <data name="err_AddFailure">
+        <value>
+            Thêm Thất Bại
+        </value>
+    </data>
+    <data name="err_EditFailure">
+        <value>
+            Sửa Thất Bại
+        </value>
+    </data>
+    <data name="err_DeleteFailure">
+        <value>
+            Xóa Thất Bại
+        </value>
+    </data>
+    <data name="btn_Edit">
+        <value>Edit</value>
+    </data>
+    <data name="btn_AreYouSureYouWantToDeleteIt?">
+        <value>Are You Sure You Want To Delete It?</value>
+    </data>
+    <data name="btn_GoBackToTheMainPage">
+        <value>Go Back To The Main Page</value>
+    </data>
+</root>

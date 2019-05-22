@@ -1,0 +1,46 @@
+﻿@model TaskUser.ViewsModels.Stock.StockViewModels
+
+
+
+@{
+    ViewBag.Title = StockLocalizer.GetLocalizedString("lbl_AddStock");
+    Layout = "_Layout";
+}
+<div class="container">
+   
+    <form method="post" asp-controller="Stock" enctype="multipart/form-data" asp-action="Create">
+        <legend>@StockLocalizer.GetLocalizedString("lbl_AddStock")</legend>
+        @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
+        <div class="form-group col-xs-6">
+            <label>@StockLocalizer.GetLocalizedString("lbl_StoreId")</label>
+            <select class="form-control" asp-for="StoreId" asp-items="@ViewBag.StoreId">
+               
+            </select>
+            
+            <span asp-validation-for="StoreId"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@StockLocalizer.GetLocalizedString("lbl_ProductId")</label>
+            <select class="form-control" asp-for="ProductId" asp-items="@ViewBag.ProductId"></select>
+            <span asp-validation-for="ProductId"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label>@StockLocalizer.GetLocalizedString("lbl_Quantity")</label>
+            <input type="text" class="form-control" asp-for="Quantity" placeholder="Quantity" >
+            <span asp-validation-for="Quantity"></span>
+        </div>
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+                @StockLocalizer.GetLocalizedString("btn_AddNewStock")
+            </button>
+        </div>
+    </form>
+    <div class="form-group col-xs-12">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Stock" asp-action="Index">
+            <img src="~/img/iconback.png" alt="Smiley face" height="42" width="42">
+            @Localizer.GetLocalizedString("btn_GoBackToTheMainPage")
+        </a>
+    </div>
+</div>
+              
+

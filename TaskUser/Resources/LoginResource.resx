@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_SignIn">
+        <value>Sign In</value>
+    </data>
+    <data name="lbl_Password">
+        <value>Password</value>
+    </data>
+    <data name="lbl_UserName">
+        <value>User Name</value>
+    </data>
+    <data name="btn_RememberMe">
+        <value>Remember Me</value>
+    </data>
+    <data name="btn_ForgotPassword?">
+        <value>Forgot Password ?</value>
+    </data>
+    <data name="btn_Login">
+        <value>Login</value>
+    </data>
+    <data name="msg_LengthFrom1To100Characters">
+        <value>
+            Length Form 1 To 100 Characters</value>
+    </data>
+    <data name="msg_EmailIsNotAvalidEmailAddress">
+        <value>
+            'Email' Is Not Avalid Email Address
+        </value>
+    </data>
+    <data name="msg_NotEmpty">
+        <value>
+            Not Empty</value>
+    </data>
+    <data name="msg_MinimumLengthOf6Characters">
+        <value>
+            Minimum Length Of 6 Characters !
+        </value>
+    </data>
+    <data name="msg_PasswordMustContainBothLetterSandNumbers.">
+        <value>
+            Password Must Contain Both Letter Sand Numbers !
+        </value>
+    </data>
+    <data name="msg_EmailAlreadyExists">
+        <value>
+            Email Already Exists
+        </value>
+    </data>
+</root>

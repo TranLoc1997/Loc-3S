@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TaskUser.ViewsModels.Brand.BrandViewsModels>
+
+<link rel="stylesheet" href="~/css/indexcs.css" />
+@{
+    ViewBag.Title = BrandLocalizer.GetLocalizedString("lbl_BrandManage");
+    Layout = "_Layout";
+}
+<div class="container-fuld">
+    <h1 align="center"> @BrandLocalizer.GetLocalizedString("lbl_BrandManage")</h1>
+   
+
+    <table class="table table-bordered table-sm">
+        <thead align="center">
+
+        <tr class="table-primary">
+            <th>
+                ID
+            </th>
+            <th>
+                @BrandLocalizer.GetLocalizedString("lbl_BrandName")
+            </th>
+            <th>
+                @BrandLocalizer.GetLocalizedString("lbl_manipulation")
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <a class="btn" style="color: black" asp-controller="Brand" asp-action="Create">
+            <img src="~/img/add.png" alt="Smiley face" height="32" width="32">
+        </a>
+        @foreach (var item in Model)
+        {
+            <tr align="center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BrandName)
+                </td>
+                <td>
+                    <a class="btn" style="color: black" asp-controller="Brand" asp-action="Edit" asp-route-id="@item.Id">
+                        <img src="~/img/Edit.png" alt="Smiley face" height="32" width="32">
+                    </a> |
+                    <a class="btn" style="color: black" onclick="return confirm('@Localizer.GetLocalizedString("btn_AreYouSureYouWantToDeleteIt?")')" asp-controller="Brand" asp-action="Delete" asp-route-id="@item.Id">
+                        <img src="~/img/delete.png" alt="Smiley face" height="32" width="32">
+                    </a>
+                </td>
+            </tr>
+           
+        }
+        </tbody>
+    </table>
+</div>
