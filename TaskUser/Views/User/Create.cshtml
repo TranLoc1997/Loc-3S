@@ -1,11 +1,9 @@
 ﻿@model TaskUser.ViewsModels.User.UserViewsModels
 
-
 @{
     ViewBag.Title =UserLocalizer.GetLocalizedString("lbl_AddUser");
     Layout = "_Layout";
 }
-@* <p>@ViewBag.Err</p> *@
 <div class="container">
     @if (ViewData["AddFailure"] != null)
     {
@@ -13,12 +11,10 @@
             <strong>@ViewData["AddFailure"]</strong>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">x</button>
         </div>
- 
     }
     <form method="post" asp-controller="User" asp-action="Create">
         <legend>
             @UserLocalizer.GetLocalizedString("lbl_AddUser")
-
         </legend>
         @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
         <div class="form-group col-xs-6">
@@ -89,9 +85,3 @@
     
 </div>
 
-    
-            
-
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

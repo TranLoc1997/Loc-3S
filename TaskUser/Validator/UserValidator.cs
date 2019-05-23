@@ -11,7 +11,6 @@ namespace TaskUser.Validator
             
             RuleFor(x => x.Email).Must((reg, c) => !userService.IsExistedEmailUser(reg.Id, reg.Email))
                 .WithMessage(localizer.GetLocalizedString("msg_EmailAlreadyExists"));
-            
             RuleFor(x => x.Name).Length(1, 100).WithMessage(localizer.GetLocalizedString("msg_LengthFrom1To100Characters"));
             RuleFor(x => x.Name).NotNull().WithMessage(localizer.GetLocalizedString("msg_NotEmpty"));
             RuleFor(x => x.PassWord).NotNull().WithMessage(localizer.GetLocalizedString("msg_NotEmpty"));

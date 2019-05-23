@@ -14,11 +14,17 @@ namespace TaskUser.Service
     public interface IBrandService
     {
         Task<List<BrandViewsModels>> GetBranListAsync();
+        
         Task<bool> AddBrandAsync(BrandViewsModels addBrand);
+        
         IEnumerable<Brand> Getbrand();
+        
         Task<BrandViewsModels> GetIdbrandAsync(int id);
+        
         Task<bool> EditBrandAsync(BrandViewsModels editBrand);
+        
         bool IsExistedName(int id, string name);
+        
         Task<bool> Delete(int id);
 
     }
@@ -54,7 +60,7 @@ namespace TaskUser.Service
         /// <summary>
         /// add brand service    
         /// </summary>
-        /// <param name="addBrand"></param>
+        /// <param name="addBrand">BrandViewsModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> AddBrandAsync(BrandViewsModels addBrand)
         {
@@ -68,7 +74,6 @@ namespace TaskUser.Service
                 _context.Brands.Add(brand);
                 await _context.SaveChangesAsync();
                 return true;
-
             }
             catch (Exception e)
             {
@@ -81,7 +86,7 @@ namespace TaskUser.Service
         /// <summary>
         /// get edit brand service
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">BrandViewsModels</param>
         /// <returns>brandDtos</returns>
         public async Task<BrandViewsModels> GetIdbrandAsync(int id)
         {
@@ -92,7 +97,7 @@ namespace TaskUser.Service
         /// <summary>
         /// post brand edit service
         /// </summary>
-        /// <param name="editBrand"></param>
+        /// <param name="editBrand">BrandViewsModels</param>
         /// <returns>true || flase</returns>
         public async Task<bool> EditBrandAsync(BrandViewsModels editBrand)
         {
@@ -124,7 +129,7 @@ namespace TaskUser.Service
         /// <summary>
         /// delete brand
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">BrandViewsModels</param>
         /// <returns>true || flase</returns>
         public async Task<bool>Delete(int id)
         {

@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using TaskUser.Filters;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Product;
@@ -60,7 +59,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post create of product
         /// </summary>
-        /// <param name="product"></param>
+        /// <param name="product">ProductViewsModels</param>
         /// <returns>return view index of product</returns>
         [HttpPost]
         public async Task<IActionResult> Create(ProductViewsModels product)
@@ -68,21 +67,18 @@ namespace TaskUser.Controllers
             if (ModelState.IsValid)
             {
                 var addProduct = await _productService.AddProductAsync(product);
-                
                 if (addProduct)
                 { 
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                
-                TempData["Failure"] = _localizer.GetLocalizedString("msg_AddFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
                 ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
                     "Id", "CategoryName",product.CategoryId);  
                 ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
                     "Id", "BrandName",product.BrandId);
                 return View(product);
             }
-            
             ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
                 "Id", "CategoryName",product.CategoryId);  
             ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
@@ -93,7 +89,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit product
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">ProductViewsModels</param>
         /// <returns>view edit of product</returns>
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
@@ -105,14 +101,13 @@ namespace TaskUser.Controllers
             ViewBag.BrandId = new SelectList(_brandService.Getbrand(), "Id", "BrandName");  
             ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), "Id", "CategoryName");  
             var getProduct = await _productService.GetIdProductAsync(id.Value);
-                   
             return View(getProduct);
         }
         
         /// <summary>
         /// post edit product
         /// </summary>
-        /// <param name="editProduct"></param>
+        /// <param name="editProduct">ProductViewsModels</param>
         /// <returns>view index of product</returns>
         [HttpPost]
         public async Task<IActionResult> Edit(ProductViewsModels editProduct)
@@ -126,15 +121,12 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");  
                 }
-               
-                TempData["Failure"] = _localizer.GetLocalizedString("msg_EditFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
                     "Id", "CategoryName",editProduct.CategoryId);  
                 ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
                     "Id", "BrandName",editProduct.BrandId);
-                
                 return View(editProduct);
-                
             }
             ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
                 "Id", "CategoryName",editProduct.CategoryId);  
@@ -146,7 +138,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get delete  product
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">ProductViewsModels</param>
         /// <returns>delete  product</returns>
         [Authorize(Roles= "Admin") ]
         [HttpGet]
@@ -164,7 +156,6 @@ namespace TaskUser.Controllers
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
             return RedirectToAction("Index");
-            
         }
     }
 }

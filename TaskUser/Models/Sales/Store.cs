@@ -5,7 +5,6 @@ namespace TaskUser.Models.Sales
 {
     public class Store
     {
-       
         public int Id { get; set; }
         public string StoreName { get; set; }
         public string Email { get; set; }

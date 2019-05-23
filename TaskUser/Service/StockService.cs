@@ -57,7 +57,7 @@ namespace TaskUser.Service
         /// <summary>
         /// get create stock
         /// </summary>
-        /// <param name="addStock"></param>
+        /// <param name="addStock">StockViewModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> AddStockAsync(StockViewModels addStock)
         {
@@ -70,24 +70,18 @@ namespace TaskUser.Service
                     _context.Stocks.Update(ckeck);
                     await _context.SaveChangesAsync();
                     return true;
-
                 }
                 else
                 {
                     var stock = new Stock()
                     {
-
                         ProductId = addStock.ProductId,
                         StoreId = addStock.StoreId,
                         Quantity = addStock.Quantity
-
-
                     };
-
                     _context.Stocks.Add(stock);
                     await _context.SaveChangesAsync();
                     return true;
-
                 }
             }
             catch (Exception e)
@@ -103,13 +97,12 @@ namespace TaskUser.Service
         /// <summary>
         /// get id edit stock
         /// </summary>
-        /// <param name="productId"></param>
-        /// <param name="storeId"></param>
-        /// <returns></returns>
+        /// <param name="productId">StockViewModels</param>
+        /// <param name="storeId">StockViewModels</param>
+        /// <returns>stockDtos</returns>
         public async Task<StockViewModels> GetIdStockAsync(int productId, int storeId)
         {
             var findStock = await _context.Stocks.FindAsync(productId, storeId);
-
             var stockDtos = _mapper.Map<StockViewModels>(findStock);
             return stockDtos;
         }
@@ -117,7 +110,7 @@ namespace TaskUser.Service
         /// <summary>
         /// post edit stock
         /// </summary>
-        /// <param name="editStock"></param>
+        /// <param name="editStock">StockViewModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> EditStockAsync(StockViewModels editStock)
         {
@@ -141,15 +134,14 @@ namespace TaskUser.Service
         /// <summary>
         /// delete stock
         /// </summary>
-        /// <param name="productId"></param>
-        /// <param name="storeId"></param>
-        /// <returns></returns>
+        /// <param name="productId">StockViewModels</param>
+        /// <param name="storeId">StockViewModels</param>
+        /// <returns>True || False</returns>
         public async Task<bool> Delete(int productId, int storeId)
         {
             try
             {
                 var stock = await _context.Stocks.FindAsync(productId, storeId);
-
                 _context.Stocks.Remove(stock);
                 _context.SaveChanges();
                 return true;

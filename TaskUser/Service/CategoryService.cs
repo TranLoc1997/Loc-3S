@@ -13,11 +13,17 @@ namespace TaskUser.Service
     public interface ICategoryService
     {
         Task<List<CategoryViewsModels>> GetCategoryListAsync();
+        
         Task<bool> AddCategoryAsync(CategoryViewsModels addCategory);
+        
         IEnumerable<Category> GetCategory();
+        
         Task<CategoryViewsModels> GetIdCategoryAsync(int id);
+        
         Task<bool> EditCategoryAsync(CategoryViewsModels editCategory);
+        
         bool IsExistedName(int id, string name);
+        
         Task<bool> Delete(int id);
     }
 
@@ -46,7 +52,7 @@ namespace TaskUser.Service
         /// <summary>
         ///  create category service
         /// </summary>
-        /// <param name="addCategory"></param>
+        /// <param name="addCategory">CategoryViewsModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> AddCategoryAsync(CategoryViewsModels addCategory)
         {
@@ -54,9 +60,7 @@ namespace TaskUser.Service
             {
                 var category = new Category()
                 {
-                    CategoryName = addCategory.CategoryName,
-                
-                    
+                    CategoryName = addCategory.CategoryName
                 };
             
                 _context.Categories.Add(category);
@@ -68,7 +72,6 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
         }
         
     
@@ -80,7 +83,7 @@ namespace TaskUser.Service
         /// <summary>
         /// get id category edit 
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">CategoryViewsModels</param>
         /// <returns></returns>
         public async Task<CategoryViewsModels> GetIdCategoryAsync(int id)
         {
@@ -92,7 +95,7 @@ namespace TaskUser.Service
         /// <summary>
         /// post edit category
         /// </summary>
-        /// <param name="editCategory"></param>
+        /// <param name="editCategory">CategoryViewsModels</param>
         /// <returns></returns>
         public async Task<bool> EditCategoryAsync(CategoryViewsModels editCategory)
         {
@@ -122,8 +125,8 @@ namespace TaskUser.Service
         /// <summary>
         /// delete category
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">CategoryViewsModels</param>
+        /// <returns>True || false</returns>
         public async Task<bool> Delete(int id)
         {
             try
@@ -132,7 +135,6 @@ namespace TaskUser.Service
                 _context.Categories.Remove(category);
                 _context.SaveChanges();
                 return true;
-
             }
             catch (Exception e)
             {

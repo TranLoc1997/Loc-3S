@@ -3,12 +3,10 @@
 
 <link rel="stylesheet" href="~/css/indexcs.css" />
 
-
 @{
     ViewBag.Title = @CategoryLocalizer.GetLocalizedString("lbl_CategoryManage");
     Layout = "_Layout";
 }
-
 
 <div class="container-fuld">
 
@@ -22,24 +20,17 @@
                 ID
             </th>
             <th>
-
                 @CategoryLocalizer.GetLocalizedString("lbl_CategoryName")
-               
             </th>
             <th>
                 @CategoryLocalizer.GetLocalizedString("lbl_manipulation")
-
-               
             </th>
-          
         </tr>
         </thead>
         <tbody>
         <a class="btn" style="color: black" asp-controller="Category" asp-action="Create">
             <img src="~/img/addcate.png" alt="Smiley face" height="32" width="32">
         </a>
-
-
         @foreach (var item in Model)
         {
             <tr align="center">
@@ -49,8 +40,6 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.CategoryName)
                 </td>
-                
-                
                 <td>
                     <a class="btn" style="color: black" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id">
                         <img src="~/img/editcate.png" alt="Smiley face" height="32" width="32">

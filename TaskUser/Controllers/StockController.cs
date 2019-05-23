@@ -34,7 +34,6 @@ namespace TaskUser.Controllers
             _productService = productService;
             _localizer = localizer;
             _stockLocalizer = stockLocalizer;
-
         }
         
         
@@ -46,7 +45,6 @@ namespace TaskUser.Controllers
         {
             var listStock = await _stockService.GetStockListAsync();
             return View(listStock);
-
         }
         
         /// <summary>
@@ -64,22 +62,20 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post create of stock
         /// </summary>
-        /// <param name="stock"></param>
+        /// <param name="stock">StockViewModels</param>
         /// <returns>view index of stock else view(stock)</returns>
         [HttpPost]
         public async Task<IActionResult> Create(StockViewModels stock)
         {
             if (ModelState.IsValid)
             {
-                
                 var addStock = await _stockService.AddStockAsync(stock);
                 if (addStock)
                 {
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                
-                TempData["Failure"] = _localizer.GetLocalizedString("err_AddFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
                 ViewBag.StoreId = new SelectList(_storeService.GetStore(), 
                     "Id", "StoreName",stock.StoreId);
                 ViewBag.ProductID = new SelectList(_productService.GetProduct(), 
@@ -97,8 +93,8 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit stock
         /// </summary>
-        /// <param name="productId"></param>
-        /// <param name="storeId"></param>
+        /// <param name="productId">StockViewModels</param>
+        /// <param name="storeId">StockViewModels</param>
         /// <returns>return edit of stock</returns>
         [HttpGet]
         public  async Task<IActionResult> Edit(int?  productId,int? storeId)
@@ -117,7 +113,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post edit stock
         /// </summary>
-        /// <param name="editStock"></param>
+        /// <param name="editStock">StockViewModels</param>
         /// <returns>view index of edir</returns>
         [HttpPost]
         public async Task<IActionResult> Edit(StockViewModels editStock)
@@ -125,19 +121,16 @@ namespace TaskUser.Controllers
            
             if (ModelState.IsValid)
             {
-                        
                 var product= await _stockService.EditStockAsync(editStock);
                 if (product)
                 {
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");
-
                 }
-                TempData["Failure"] = _localizer.GetLocalizedString("err_EditFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
                 ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
                 return View(editStock);
-
                
             }
             
@@ -149,8 +142,8 @@ namespace TaskUser.Controllers
         /// <summary>
         /// delete stock
         /// </summary>
-        /// <param name="productId"></param>
-        /// <param name="storeId"></param>
+        /// <param name="productId">StockViewModels</param>
+        /// <param name="storeId">StockViewModels</param>
         /// <returns>index</returns>
         [Authorize(Roles= "Admin") ]
         [HttpGet]
@@ -159,13 +152,11 @@ namespace TaskUser.Controllers
             if (productId ==null || storeId ==null )
             {
                 return BadRequest();
-
-
             }
            var rmProduct = await _stockService.Delete(productId.Value,storeId.Value);
             if (rmProduct)
             {
-                TempData["DeleteSuccessfuly"] = _localizer.GetLocalizedString("msg_DeleteSuccessfuly").ToString();
+                TempData["Successfuly"] = _localizer.GetLocalizedString("msg_DeleteSuccessfuly").ToString();
                 return RedirectToAction("Index");
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();

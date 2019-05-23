@@ -1,11 +1,9 @@
 ﻿@model TaskUser.ViewsModels.Store.StoreViewModels
 
-
 @{
     ViewBag.Title = StoreLocalizer.GetLocalizedString("lbl_EditStore");
     Layout = "_Layout";
 }
-
 
 <div class="container">
     
@@ -71,7 +69,6 @@
                 @Localizer.GetLocalizedString("btn_Edit")
             </button>
         </div>
-        
     </form>
     <div class="form-group col-xs-12">
         <a class="nav-link text-dark" asp-area="" asp-controller="Stock" asp-action="Index">
@@ -80,6 +77,3 @@
         </a>
     </div>
 </div>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

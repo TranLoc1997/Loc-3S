@@ -1,28 +1,19 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Rendering
 @model List<TaskUser.ViewsModels.User.UserViewsModels>
 <style type="text/css"></style>
-
-
 <link rel="stylesheet" href="~/css/indexcs.css" />
-
 @{
     ViewBag.Title =UserLocalizer.GetLocalizedString("lbl_UserManage");
     Layout = "_Layout";
 }
-
-
 <div class="container-fuld">
-    
     <div class="alert" >
         <h1  align="center">
            @UserLocalizer.GetLocalizedString("lbl_UserManage")
         </h1>
-        
-
     </div>
  <table class="table table-bordered table-sm">
         <thead align="center">
-
         <tr class="table-primary">
             <th>
                 ID
@@ -103,7 +94,5 @@
         </tbody>
     </table>
 </div>
-
-
 <!-- Modal placeholder -->
 <div id="modal-placeholder"></div>

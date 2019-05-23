@@ -17,8 +17,11 @@ namespace TaskUser.Service
         Task<bool> AddProductAsync(ProductViewsModels addProduct);
 
         IEnumerable<Product> GetProduct();
+        
         Task<ProductViewsModels> GetIdProductAsync(int id);
+        
         Task<bool> EditProductAsync(ProductViewsModels editProduct);
+        
         Task<bool> Delete(int id);
     }
 
@@ -35,7 +38,7 @@ namespace TaskUser.Service
         /// <summary>
         /// show list product
         /// </summary>
-        /// <returns></returns>
+        /// <returns>listProduct</returns>
         public async Task<List<ProductViewsModels>> GetProductListAsync()//
         {
             var list = await _context.Products.Include(b=>b.Brand).Include(c=>c.Categorie).ToListAsync();
@@ -50,8 +53,8 @@ namespace TaskUser.Service
         /// <summary>
         /// create product 
         /// </summary>
-        /// <param name="addProduct"></param>
-        /// <returns></returns>
+        /// <param name="addProduct">ProductViewsModels</param>
+        /// <returns>True || False</returns>
         public async Task<bool> AddProductAsync(ProductViewsModels addProduct)
         {
             try
@@ -88,8 +91,8 @@ namespace TaskUser.Service
         /// <summary>
         /// edit get product
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">ProductViewsModels</param>
+        /// <returns>productDtos</returns>
         public async Task<ProductViewsModels> GetIdProductAsync(int id)
         {
             var findProduct= await _context.Products.FindAsync(id);
@@ -100,7 +103,7 @@ namespace TaskUser.Service
         /// <summary>
         /// edit post product
         /// </summary>
-        /// <param name="editProduct"></param>
+        /// <param name="editProduct">ProductViewsModels</param>
         /// <returns>true || flase</returns>
         public async Task<bool> EditProductAsync(ProductViewsModels editProduct)
         {
@@ -113,14 +116,12 @@ namespace TaskUser.Service
                 
                 }
                 var product =await _context.Products.FindAsync(editProduct.Id);
-            
                 product.BrandId = editProduct.BrandId;
                 product.CategoryId = editProduct.CategoryId;
                 product.ProductName = editProduct.ProductName;
                 product.Picture = editProduct.PictureFile.FileName;
                 product.ModelYear = editProduct.ModelYear;
                 product.ListPrice = editProduct.ListPrice;
-           
                 _context.Products.Update(product);
                 await _context.SaveChangesAsync();
                 return true;
@@ -136,14 +137,13 @@ namespace TaskUser.Service
         /// <summary>
         /// delete product
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">ProductViewsModels</param>
+        /// <returns>True || false</returns>
         public async Task<bool>Delete(int id)
         {
             try
             {
                 var product = await _context.Products.FindAsync(id);
-            
                 _context.Products.Remove(product);
                 _context.SaveChanges();
                 return true;

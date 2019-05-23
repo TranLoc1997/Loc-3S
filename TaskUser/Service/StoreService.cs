@@ -13,11 +13,18 @@ namespace TaskUser.Service
     public interface IStoreService
     {
         Task<List<StoreViewModels>> GetStoreListAsync();
+        
         IEnumerable<Store> GetStore();
+        
         Task<bool> AddStoreAsync(StoreViewModels addStore);
+        
         Task<StoreViewModels> GetIdStoreAsync(int id); //
+        
         Task<bool> EditStoreAsync(StoreViewModels editStore);
+        
         bool IsExistedEmailStore(int id, string email);
+        
+//        bool IsExistedEmailUser(int id, string email);
         Task<bool> Delete(int id);
 
 
@@ -35,10 +42,10 @@ namespace TaskUser.Service
         }
       
 
-       /// <summary>
-       /// get show store
-       /// </summary>
-       /// <returns>listStore</returns>
+        /// <summary>
+        /// get show store
+        /// </summary>
+        /// <returns>listStore</returns>
         public async Task<List<StoreViewModels>> GetStoreListAsync()//
         {
             var list = await _context.Stores
@@ -55,7 +62,7 @@ namespace TaskUser.Service
         /// <summary>
         /// get create store
         /// </summary>
-        /// <param name="addStore"></param>
+        /// <param name="addStore">StoreViewModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> AddStoreAsync(StoreViewModels addStore)
         {
@@ -69,10 +76,8 @@ namespace TaskUser.Service
                     City = addStore.City,
                     State = addStore.State,
                     Street = addStore.Street,
-                    ZipCode = addStore.ZipCode,
-                    
+                    ZipCode = addStore.ZipCode
                 };
-            
                 await _context.Stores.AddAsync(store);
                 await _context.SaveChangesAsync();
                 return true;
@@ -88,8 +93,8 @@ namespace TaskUser.Service
         /// <summary>
         /// get edit id store
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">StoreViewModels</param>
+        /// <returns>storeDtos</returns>
         public async Task<StoreViewModels> GetIdStoreAsync(int id)
         {
             var findStore=await _context.Stores.FindAsync(id);
@@ -99,14 +104,13 @@ namespace TaskUser.Service
         /// <summary>
         /// Post edit store
         /// </summary>
-        /// <param name="editStore"></param>
+        /// <param name="editStore">StoreViewModels</param>
         /// <returns>true || false</returns>
         public async Task<bool> EditStoreAsync(StoreViewModels editStore)
         {
             try
             {
                 var store =await _context.Stores.FindAsync(editStore.Id);
-            
                 store.StoreName = editStore.StoreName;
                 store.Email = editStore.Email;
                 store.Phone = editStore.Phone;
@@ -123,8 +127,6 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
-
         }
         
         /// <summary>
@@ -138,11 +140,16 @@ namespace TaskUser.Service
             return _context.Stores.Any(x => x.Email == email && x.Id != id);
         }
         
+//        public bool IsExistedEmailUser(int id,string email)
+//        {
+//            return _context.Users.Any(x => x.Email == email && x.Id != id);
+//        }
+        
         /// <summary>
         /// delete store
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">StoreViewModels</param>
+        /// <returns>True || False</returns>
         public async Task<bool> Delete(int id)
         {
             try
@@ -159,7 +166,5 @@ namespace TaskUser.Service
             }
             
         }
-
-        
     }
 }

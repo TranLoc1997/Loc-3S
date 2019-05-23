@@ -1,12 +1,9 @@
 ﻿@model TaskUser.ViewsModels.Brand.BrandViewsModels
 
-
 @{
     ViewBag.Title =  BrandLocalizer.GetLocalizedString("lbl_AddBrand");
     Layout = "_Layout";
 }
-
-
 <div class="container">
    
     <form method="post" asp-controller="Brand" asp-action="Create">
@@ -37,7 +34,3 @@
     </div>
               
 </div>
-              
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

@@ -89,6 +89,17 @@ namespace TaskUser
 //            });
 
             #endregion
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                    {
+                        options.AccessDeniedPath = new PathString("/Error/401");
+                        options.LoginPath = new PathString("/Error/401");
+                        options.ReturnUrlParameter = "RequestPath";
+                        options.SlidingExpiration = true;
+                    }
+                    
+                );
 
 
 
@@ -107,17 +118,8 @@ namespace TaskUser
             services.AddSingleton<SharedViewLocalizer<StoreResource>>();
             services.AddSingleton<SharedViewLocalizer<UserResource>>();
             services.AddSingleton<SharedViewLocalizer<PasswordResource>>();
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.AccessDeniedPath = new PathString("/Error/401");
-                    options.LoginPath = new PathString("/Error/401");
-                    options.ReturnUrlParameter = "RequestPath";
-                    options.SlidingExpiration = true;
-                }
-                    
-                    );
-            services.AddLocalization(options => options.ResourcesPath = "Resources");
+            
+            
             services.AddTransient<DbContext>();
             services.AddAutoMapper();
             services.AddScoped<ActionFilter>();

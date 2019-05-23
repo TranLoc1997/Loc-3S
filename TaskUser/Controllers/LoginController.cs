@@ -40,18 +40,14 @@ namespace TaskUser.Controllers
         /// <summary>
         /// login
         /// </summary>
-        /// <param name="model"></param>
+        /// <param name="model">LoginViewModel</param>
         /// <returns>view index controller user</returns>
         [HttpPost]
         public async Task<IActionResult> IndexLogin(LoginViewModel model)
         {
-            
-            
             if (ModelState.IsValid)
             
-            {     
-                // create claims
-               
+            {    
                 var user = _userService.Login(model.Email, model.PassWord);
                 if (user)
                 {
@@ -62,19 +58,16 @@ namespace TaskUser.Controllers
                         new Claim("FullName", model.Email),
                         new Claim(ClaimTypes.Role, name.Role)
                     };
-
                     var claimsIdentity = new ClaimsIdentity(
                         claims, CookieAuthenticationDefaults.AuthenticationScheme);
-
                     var authProperties = new AuthenticationProperties();
                     await HttpContext.SignInAsync(
                         CookieAuthenticationDefaults.AuthenticationScheme, 
                         new ClaimsPrincipal(claimsIdentity), 
                         authProperties);
-                    
-                    
                     HttpContext.Session.SetString("name",name.Name);
                     return RedirectToAction("Index", "Store");
+                    
                 }
             }
             return View(model);

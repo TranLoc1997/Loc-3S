@@ -16,24 +16,17 @@ namespace TaskUser.Controllers
         private readonly IStoreService _storeService;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
         private readonly SharedViewLocalizer<PasswordResource> _passwordLocalizer;
-        private readonly SharedViewLocalizer<UserResource> _userLocalizer;
         public UserController(
-          
             IUserService userService,
-           
             IStoreService storeService,
             SharedViewLocalizer<CommonResource> localizer,
-            SharedViewLocalizer<PasswordResource> passwordLocalizer,
-            SharedViewLocalizer<UserResource> userLocalizer
+            SharedViewLocalizer<PasswordResource> passwordLocalizer
             )
         {
-          
             _userService = userService;
             _storeService = storeService;
             _localizer = localizer;
             _passwordLocalizer = passwordLocalizer;
-            _userLocalizer = userLocalizer;
-
         }
      
         /// <summary>
@@ -46,7 +39,6 @@ namespace TaskUser.Controllers
             if (listUser==null)
             {
                 return NotFound();
-
             }
             return View(listUser);
 
@@ -66,7 +58,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post create  user
         /// </summary>
-        /// <param name="user"></param>
+        /// <param name="user">UserViewsModels</param>
         /// <returns>index  User  else view</returns>
         [HttpPost]
         public async Task<IActionResult> Create(UserViewsModels user)
@@ -80,11 +72,10 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                TempData["Failure"] = _localizer.GetLocalizedString("err_AddFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
                 ViewBag.StoreId = new SelectList(_storeService.GetStore(), 
                     "Id", "StoreName",user.StoreId);
                 return View(user);
-                
             }
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), 
                 "Id", "StoreName",user.StoreId);
@@ -94,20 +85,18 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit of user
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">UserViewsModels</param>
         /// <returns>create of user</returns>
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
-                
                 return BadRequest();
             }
             var findUser = await _userService.GetIdAsync(id.Value);
             if (findUser ==null)
             {
-                
                 return BadRequest();
             }
             
@@ -119,7 +108,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post edit of user
         /// </summary>
-        /// <param name="userParam"></param>
+        /// <param name="userParam">EditUserViewsModels</param>
         /// <returns>index of User else view</returns>
         [HttpPost]
         public async Task<IActionResult> Edit(EditUserViewsModels userParam)
@@ -132,9 +121,8 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                TempData["Failure"] = _localizer.GetLocalizedString("err_EditFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 return View(userParam);
-
             }
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName",userParam.StoreId);
             return View(userParam);
@@ -143,23 +131,20 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit password 
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">EditUserViewsModels</param>
         /// <returns>view _change Password</returns>
         [HttpGet]
         public async Task<IActionResult> EditPassword(int? id)
         {
             if (id == null) return BadRequest();
             var findPassword = await _userService.GetPasswordAsync(id.Value);
-
-
             return PartialView("_ChangePassword", findPassword);
-
         }
 
         /// <summary>
         /// post edit password
         /// </summary>
-        /// <param name="passwordUser"></param>
+        /// <param name="passwordUser">EditUserViewsModels</param>
         /// <returns>index of User else view</returns>
         [HttpPost]
         public async Task<IActionResult> EditPassword(EditViewPassword passwordUser)
@@ -169,22 +154,20 @@ namespace TaskUser.Controllers
                 var users =  await _userService.EditPasswordAsync(passwordUser);
                 if (users)
                 {
-                    TempData["EditPasswordSuccessfuly"] = _passwordLocalizer.GetLocalizedString("msg_EditPasswordSuccessfuly").ToString();
+                    TempData["Successfuly"] = _passwordLocalizer.GetLocalizedString("msg_EditPasswordSuccessfuly").ToString();
                     return PartialView("_ChangePassword",passwordUser);    
                 }        
-                ViewData["EditPasswordFailure"] = _passwordLocalizer.GetLocalizedString("err_PasswordFailure");
+                ViewData["Failure"] = _passwordLocalizer.GetLocalizedString("err_PasswordFailure");
                 return PartialView("_ChangePassword",passwordUser);       
             }
-            ViewData["EditPasswordFailure"] = _passwordLocalizer.GetLocalizedString("err_PasswordFailure");
             return PartialView("_ChangePassword",passwordUser);
         }
 
         /// <summary>
         /// delete user
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">EditUserViewsModels</param>
         /// <returns>view index of user</returns>
-        
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {

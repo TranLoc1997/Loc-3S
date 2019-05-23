@@ -15,14 +15,23 @@ namespace TaskUser.Service
     public interface IUserService
     {
         bool Login(string email, string password);
+        
         Task<List<UserViewsModels>> GetUserListAsync();
+        
         Task<bool> AddUserAsync(UserViewsModels user);
+        
         Task<EditViewPassword> GetPasswordAsync(int id);
+        
         Task<bool> EditPasswordAsync(EditViewPassword passUser);
+        
         IEnumerable<User> GetUser();
+        
         Task<EditUserViewsModels> GetIdAsync(int id);
+        
         Task<bool> EditUserAsync(EditUserViewsModels userParam);
+        
         User GetName(string name);
+        
         Task<bool> Delete(int id);
         
         bool IsExistedEmailUser(int id, string email);
@@ -63,10 +72,10 @@ namespace TaskUser.Service
 
             return true;
         }
-/// <summary>
-/// get list show user
-/// </summary>
-/// <returns></returns>
+        /// <summary>
+        /// get list show user
+        /// </summary>
+        /// <returns>listUser</returns>
         public async Task<List<UserViewsModels>> GetUserListAsync()
         {
             var list = await _context.Users
@@ -74,18 +83,17 @@ namespace TaskUser.Service
                 ToListAsync();
             var listUser = _mapper.Map<List<UserViewsModels>>(list);
             return listUser;
-            
         }
 
         public IEnumerable<User> GetUser()
         {
             return _context.Users;
         } 
-/// <summary>
-/// create user 
-/// </summary>
-/// <param name="user"></param>
-/// <returns>true || false</returns>
+        /// <summary>
+        /// create user 
+        /// </summary>
+        /// <param name="user">UserViewsModels</param>
+        /// <returns>true || false</returns>
         public async Task<bool> AddUserAsync(UserViewsModels user)
         {
             try
@@ -99,7 +107,6 @@ namespace TaskUser.Service
                     StoreId = user.StoreId,
                     Role = user.Role,
                     IsActiver = user.IsActiver
-                    
                 };
             
                 await _context.Users.AddAsync(users);
@@ -117,14 +124,13 @@ namespace TaskUser.Service
         /// <summary>
         /// get edit user  
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">EditUserViewsModels</param>
         /// <returns>userDtos</returns>
-          [HttpGet]  
+        [HttpGet]  
         public async Task<EditUserViewsModels> GetIdAsync(int id)
         {
             var findUser=await _context.Users.FindAsync(id);
             var userDtos = _mapper.Map<EditUserViewsModels>(findUser);
-           
             return userDtos;
           
           
@@ -132,7 +138,7 @@ namespace TaskUser.Service
         /// <summary>
         /// post edit user  
         /// </summary>
-        /// <param name="userParam"></param>
+        /// <param name="userParam">EditUserViewsModels</param>
         /// <returns></returns>
         [HttpPost] 
         public async Task<bool> EditUserAsync(EditUserViewsModels userParam)
@@ -140,7 +146,6 @@ namespace TaskUser.Service
             try
             {
                 var user = await _context.Users.FindAsync(userParam.Id);
-                
                 user.Name = userParam.Name;
                 user.Email = userParam.Email;
                 user.Phone = userParam.Phone;
@@ -161,7 +166,7 @@ namespace TaskUser.Service
         /// <summary>
         /// get password
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">EditUserViewsModels</param>
         /// <returns>usereditDtos</returns>
         [HttpGet]
         public async Task<EditViewPassword> GetPasswordAsync(int id)
@@ -174,7 +179,7 @@ namespace TaskUser.Service
         /// <summary>
         /// post user Password
         /// </summary>
-        /// <param name="passUser"></param>
+        /// <param name="passUser">EditUserViewsModels</param>
         /// <returns></returns>
         [HttpPost]
         public async Task<bool> EditPasswordAsync(EditViewPassword passUser)
@@ -198,14 +203,13 @@ namespace TaskUser.Service
         /// <summary>
         /// delete user
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">EditUserViewsModels</param>
         /// <returns>True || false</returns>
         public async Task<bool> Delete(int id)
         {
             try
             {
                 var user = await _context.Users.FindAsync(id);
-                
                 _context.Users.Remove(user);
                 _context.SaveChanges();
                 return true;
@@ -220,20 +224,19 @@ namespace TaskUser.Service
         /// <summary>
         /// ckeck name
         /// </summary>
-        /// <param name="email"></param>
+        /// <param name="email">EditUserViewsModels</param>
         /// <returns></returns>
         public User GetName(string email)
         {
             var user = _context.Users.FirstOrDefault(x =>
                 x.Email == email );
-
             return user;
         }
         /// <summary>
         /// ckeck trung email
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="email"></param>
+        /// <param name="id">EditUserViewsModels</param>
+        /// <param name="email">EditUserViewsModels</param>
         /// <returns></returns>
         public bool IsExistedEmailUser(int id,string email)
         {

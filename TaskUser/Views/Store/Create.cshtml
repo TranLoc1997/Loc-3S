@@ -1,21 +1,16 @@
 ﻿@model TaskUser.ViewsModels.Store.StoreViewModels
 
-
 @{
     ViewBag.Title = StoreLocalizer.GetLocalizedString("lbl_AddStore");
     Layout = "_Layout";
 }
-
-
 <div class="container">
-    
     <form method="post" asp-controller="Store" asp-action="Create">
         <legend>@StoreLocalizer.GetLocalizedString("lbl_AddStore")</legend>
         @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
         <div class="form-group col-xs-6">
             <label>
                 @StoreLocalizer.GetLocalizedString("lbl_StoreName")
-                
             </label>
             <input type="text" class="form-control" asp-for="StoreName" placeholder="StoreName" >
             <span asp-validation-for="StoreName"></span>
@@ -30,7 +25,6 @@
          <div id="subject-select" class="form-group col-xs-12">
              <label>
                  @StoreLocalizer.GetLocalizedString("lbl_Phone")
-                 
              </label>
              <input type="text" class="form-control" asp-for="Phone" placeholder="Phone" >
              <span asp-validation-for="Phone"></span>
@@ -79,7 +73,3 @@
     </div>
 
 </div>
-
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

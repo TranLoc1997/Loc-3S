@@ -18,8 +18,6 @@ namespace TaskUser.Validator
             RuleFor(x => x.ConfirmPassword).Matches("^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+)$").WithMessage(localizer.GetLocalizedString("msg_PasswordMustContainBothLetterSandNumbers."));
             RuleFor(x => x.ConfirmPassword).Equal(x => x.NewPassword)
                 .WithMessage(localizer.GetLocalizedString("msg_ThePasswordDoesNotMatch"));
-            
-
         }
         
     }

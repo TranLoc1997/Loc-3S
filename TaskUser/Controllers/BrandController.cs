@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using TaskUser.Filters;
 using TaskUser.Models;
 using TaskUser.Resources;
 using TaskUser.Service;
@@ -54,8 +53,8 @@ namespace TaskUser.Controllers
        /// <summary>
        /// Post create brand
        /// </summary>
-       /// <param name="brand"></param>
-       /// <returns></returns>
+       /// <param name="brand">BrandViewsModels</param>
+       /// <returns>index else View</returns>
         [HttpPost]
         public async Task<IActionResult> Create(BrandViewsModels brand)
         {
@@ -67,7 +66,7 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                TempData["EditFailure"] = _localizer.GetLocalizedString("err_AddFailure").ToString();
+                ViewData["EditFailure"] = _localizer.GetLocalizedString("err_AddFailure");
                 return View(brand);
             }
             return View(brand);
@@ -76,7 +75,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit brand
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">BrandViewModel</param>
         /// <returns>view edit </returns>
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
@@ -93,7 +92,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// Post Edit Brand
         /// </summary>
-        /// <param name="editBrand"></param>
+        /// <param name="editBrand">BrandViewsModels</param>
         /// <returns>brand index</returns>
         [HttpPost]
         public async Task<IActionResult> Edit(BrandViewsModels editBrand)
@@ -107,7 +106,7 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 
                 }
-                TempData["EditFailure"] = _localizer.GetLocalizedString("err_EditFailure").ToString();
+                ViewData["EditFailure"] = _localizer.GetLocalizedString("err_EditFailure");
                 return View(editBrand);
             }
             return View(editBrand);
@@ -116,7 +115,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get delete
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">Brand</param>
         /// <returns>index brand</returns>
         [Authorize(Roles= "Admin") ]
         [HttpGet]

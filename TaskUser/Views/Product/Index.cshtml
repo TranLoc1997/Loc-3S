@@ -1,18 +1,11 @@
 ﻿@model IEnumerable<TaskUser.ViewsModels.Product.ProductViewsModels>
-
-
 <link rel="stylesheet" href="~/css/indexcs.css"/>
-
-
 @{
     ViewBag.Title = ProductLocalizer.GetLocalizedString("lbl_ProductManage");
     Layout = "_Layout";
 }
-
 <div class="container-fuld">
     <h1 align="center">@ProductLocalizer.GetLocalizedString("lbl_ProductManage")</h1>
-
-
     <table class="table table-bordered table-sm">
         <thead align="center">
 
@@ -22,34 +15,25 @@
             </th>
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_ProductName")
-               
-
             </th>
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_BrandId")
-             
             </th>
 
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_CategoryId")
-     
             </th>
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_ModelYear")
-            
             </th>
-
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_Picture")
-              
             </th>
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_ListPrice")
-            
             </th>
             <th>
                 @ProductLocalizer.GetLocalizedString("lbl_manipulation")
-            
             </th>
         </tr>
         </thead>
@@ -57,8 +41,6 @@
         <a class="btn" style="color: black" asp-controller="Product" asp-action="Create">
             <img src="~/img/addproduct.png" alt="Smiley face" height="32" width="32">
         </a>
-
-
         @foreach (var item in Model)
         {
             <tr align="center">
@@ -85,8 +67,6 @@
                     @Html.DisplayFor(modelItem => item.ListPrice)
                     <img src="~/img/2656-256.png" alt="Smiley face" height="32" width="32">
                 </td>
-
-
                 <td>
                     <a class="btn" style="color: black" asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id">
                         <img src="~/img/Edit.png" alt="Smiley face" height="32" width="32">

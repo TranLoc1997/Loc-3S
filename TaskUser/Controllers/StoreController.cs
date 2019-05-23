@@ -8,8 +8,7 @@ using TaskUser.ViewsModels.Store;
 
 namespace TaskUser.Controllers
 {
-//    [ServiceFilter(typeof(ActionFilter))]
-//    
+//    [ServiceFilter(typeof(ActionFilter))]  
     [Authorize]
     public class StoreController : Controller
     {
@@ -48,7 +47,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post create  store
         /// </summary>
-        /// <param name="store"></param>
+        /// <param name="store">StoreViewModels</param>
         /// <returns>index of store else view</returns>
         [HttpPost]
         public async Task<IActionResult> Create(StoreViewModels store)
@@ -61,7 +60,7 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                TempData["Failure"] = _localizer.GetLocalizedString("err_AddFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
                 return View(store);
             }
             
@@ -71,7 +70,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// get edit  store
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">StoreViewModels</param>
         /// <returns>view edit of stroe</returns>
         [HttpGet]
         public async Task<IActionResult> Edit(int?id)
@@ -88,7 +87,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// post edit  store
         /// </summary>
-        /// <param name="editStore"></param>
+        /// <param name="editStore">StoreViewModels</param>
         /// <returns>index of store else view</returns>
         [HttpPost]
         public async Task<IActionResult> Edit(StoreViewModels editStore)
@@ -99,11 +98,10 @@ namespace TaskUser.Controllers
                  var store= await _storeService.EditStoreAsync(editStore);
                 if (store)
                 {
-                    
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
-                TempData["Failure"] = _localizer.GetLocalizedString("err_EditFailure").ToString();
+                ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 return View(editStore);
                 }
             return View(editStore);
@@ -112,7 +110,7 @@ namespace TaskUser.Controllers
         /// <summary>
         /// delete  store
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">StoreViewModels</param>
         /// <returns>index</returns>
         [Authorize(Roles= "Admin") ]
         [HttpGet]
