@@ -10,7 +10,7 @@ using TaskUser.ViewsModels.Brand;
 namespace TaskUser.Controllers
 {
 //    [ServiceFilter(typeof(ActionFilter))]
-    [Authorize(Roles= "Admin") ]
+    [Authorize]
     public class BrandController : Controller
     {
         private readonly IBrandService _brandService;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_TaskUser.-1756660248.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_TaskUser.-980539033.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Controllers" t="Include">
         <e p="BrandController.cs" t="Include" />
@@ -28,6 +28,8 @@
         <e p="20190522075740_dbcontex1.cs" t="Include" />
         <e p="20190522083523_AddUserRole.Designer.cs" t="Include" />
         <e p="20190522083523_AddUserRole.cs" t="Include" />
+        <e p="20190523035207_AddFrKey.Designer.cs" t="Include" />
+        <e p="20190523035207_AddFrKey.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

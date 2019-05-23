@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/TaskUser.csproj",
+    "projectUniqueName": "/home/local/3SI/loc.tv/Desktop/VanLoc-3S/Loc-3S/TaskUser/TaskUser.csproj",
     "projectName": "TaskUser",
-    "projectPath": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/TaskUser.csproj",
-    "outputPath": "/home/local/3SI/loc.tv/Desktop/Loc-3S/TaskUser/obj/",
+    "projectPath": "/home/local/3SI/loc.tv/Desktop/VanLoc-3S/Loc-3S/TaskUser/TaskUser.csproj",
+    "outputPath": "/home/local/3SI/loc.tv/Desktop/VanLoc-3S/Loc-3S/TaskUser/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

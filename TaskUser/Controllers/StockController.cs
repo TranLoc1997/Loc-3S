@@ -10,7 +10,8 @@ using TaskUser.ViewsModels.Stock;
 namespace TaskUser.Controllers
 {
 //    [ServiceFilter(typeof(ActionFilter))
-     [Authorize(Roles= "Admin") ]
+//     [Authorize(Roles= "Admin")]
+    [Authorize]
     public class StockController : Controller
     {
         /// <summary>

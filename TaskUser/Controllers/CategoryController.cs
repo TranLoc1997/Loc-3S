@@ -9,7 +9,8 @@ using TaskUser.ViewsModels.Category;
 namespace TaskUser.Controllers
 {
 //    [ServiceFilter(typeof(ActionFilter))]
-    [Authorize(Roles= "Admin") ]
+//    [Authorize(Roles= "Admin") ]
+    [Authorize]
     public class CategoryController : Controller
     {
        

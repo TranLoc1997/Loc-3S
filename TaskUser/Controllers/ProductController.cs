@@ -10,7 +10,8 @@ using TaskUser.ViewsModels.Product;
 namespace TaskUser.Controllers
 {
 //    [ServiceFilter(typeof(ActionFilter))]
-    [Authorize(Roles= "Admin") ]
+//    [Authorize(Roles= "Admin") ]
+    [Authorize]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;

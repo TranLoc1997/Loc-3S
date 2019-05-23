@@ -59,6 +59,15 @@ namespace TaskUser.Models
             modelBuilder.Entity<Stock>().Property(t => t.StoreId).IsRequired().HasMaxLength(255);
             modelBuilder.Entity<Stock>().Property(t => t.ProductId).IsRequired().HasMaxLength(255);
             modelBuilder.Entity<Stock>().Property(t => t.Quantity).IsRequired();
+            
+           // ForeignKey
+            modelBuilder.Entity<User>().HasOne(s => s.Store).WithMany(g => g.Users).HasForeignKey(s => s.StoreId);
+            
+            modelBuilder.Entity<Product>().HasOne(s => s.Categorie).WithMany(g => g.Products).HasForeignKey(s => s.CategoryId);
+            modelBuilder.Entity<Product>().HasOne(s => s.Brand).WithMany(g => g.Product).HasForeignKey(s => s.BrandId);
+            
+            modelBuilder.Entity<Stock>().HasOne(s => s.Store).WithMany(g => g.Stocks).HasForeignKey(s => s.StoreId);
+            modelBuilder.Entity<Stock>().HasOne(s => s.Product).WithMany(g => g.Stocks).HasForeignKey(s => s.ProductId);
    
             
             

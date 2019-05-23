@@ -15,7 +15,7 @@ namespace TaskUser.Models.Sales
         public string State { get; set; }
         public string ZipCode { get; set; }
         
-        public virtual ICollection<User> users { get; set; }
+        public virtual ICollection<User> Users { get; set; }
         
         public virtual ICollection<Stock>Stocks { get; set; }
     }
