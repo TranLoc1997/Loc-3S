@@ -15,13 +15,10 @@
         <div class="form-group col-xs-6">
             <label>
                 @CategoryLocalizer.GetLocalizedString("lbl_CategoryName")
-                
             </label>
             <input type="text" class="form-control" asp-for="CategoryName" placeholder="CategoryName" >
             <span asp-validation-for="CategoryName"></span>
         </div>
-                       
-                       
         <div class="form-group col-xs-12">
             <button type="submit" class="btn btn-primary btn-lg btn-block">
                 @CategoryLocalizer.GetLocalizedString("btn_Edit")

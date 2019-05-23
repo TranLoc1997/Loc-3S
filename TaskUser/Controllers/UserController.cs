@@ -21,7 +21,7 @@ namespace TaskUser.Controllers
             IStoreService storeService,
             SharedViewLocalizer<CommonResource> localizer,
             SharedViewLocalizer<PasswordResource> passwordLocalizer
-            )
+        )
         {
             _userService = userService;
             _storeService = storeService;

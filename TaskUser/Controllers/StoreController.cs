@@ -95,7 +95,7 @@ namespace TaskUser.Controllers
            
             if (ModelState.IsValid)
             {
-                 var store= await _storeService.EditStoreAsync(editStore);
+                var store= await _storeService.EditStoreAsync(editStore);
                 if (store)
                 {
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
@@ -103,7 +103,7 @@ namespace TaskUser.Controllers
                 }
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 return View(editStore);
-                }
+            }
             return View(editStore);
         }
         
@@ -120,7 +120,7 @@ namespace TaskUser.Controllers
             {
                 return BadRequest();
             }
-           var rmStore=await _storeService.Delete(id.Value);
+            var rmStore=await _storeService.Delete(id.Value);
             if (rmStore)
             {
                 TempData["Successfuly"] = _localizer.GetLocalizedString("msg_DeleteSuccessfuly").ToString();

@@ -38,10 +38,10 @@ namespace TaskUser.Service
             _mapper = mapper;
         }
         
-       /// <summary>
-       /// show category list
-       /// </summary>
-       /// <returns>listCategory</returns>
+        /// <summary>
+        /// show category list
+        /// </summary>
+        /// <returns>listCategory</returns>
         public async Task<List<CategoryViewsModels>> GetCategoryListAsync()//
         {
             var list = await _context.Categories.ToListAsync();

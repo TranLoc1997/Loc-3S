@@ -50,11 +50,11 @@ namespace TaskUser.Controllers
             return View();
         }
         
-       /// <summary>
-       /// Post create brand
-       /// </summary>
-       /// <param name="brand">BrandViewsModels</param>
-       /// <returns>index else View</returns>
+        /// <summary>
+        /// Post create brand
+        /// </summary>
+        /// <param name="brand">BrandViewsModels</param>
+        /// <returns>index else View</returns>
         [HttpPost]
         public async Task<IActionResult> Create(BrandViewsModels brand)
         {
@@ -102,7 +102,7 @@ namespace TaskUser.Controllers
                 var brand = await  _brandService.EditBrandAsync(editBrand);
                 if (brand)
                 {
-                       TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
+                    TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 
                 }

@@ -19,8 +19,5 @@ namespace TaskUser.Validator
             RuleFor(x => x.ConfirmPassword).Equal(x => x.NewPassword)
                 .WithMessage(localizer.GetLocalizedString("msg_ThePasswordDoesNotMatch"));
         }
-        
     }
-    
 }
-

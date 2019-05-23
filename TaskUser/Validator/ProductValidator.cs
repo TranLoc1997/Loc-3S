@@ -16,7 +16,5 @@ namespace TaskUser.Validator
             RuleFor(x => x.PictureFile).NotNull().WithMessage(localizer.GetLocalizedString("msg_NotEmpty"));
             RuleFor(x => x.ProductName).NotNull().WithMessage(localizer.GetLocalizedString("msg_NotEmpty"));
         }
-        
     }
-    
 }

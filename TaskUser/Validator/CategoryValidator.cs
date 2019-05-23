@@ -13,8 +13,6 @@ namespace TaskUser.Validator
             RuleFor(x => x.CategoryName).Must((reg, c) => !categoryService.IsExistedName(reg.Id, reg.CategoryName))
                 .WithMessage(localizer.GetLocalizedString("msg_NameCategoryAlreadyExists"));
             RuleFor(x => x.CategoryName).NotNull().WithMessage(localizer.GetLocalizedString("msg_NotEmpty"));
-
         }
-        
     }
 }

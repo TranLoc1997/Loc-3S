@@ -84,7 +84,7 @@ namespace TaskUser.Controllers
         {
             await HttpContext.SignOutAsync(
                 CookieAuthenticationDefaults.AuthenticationScheme);
-           return RedirectToAction("IndexLogin");
+            return RedirectToAction("IndexLogin");
 
         }
         

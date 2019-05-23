@@ -153,7 +153,7 @@ namespace TaskUser.Controllers
             {
                 return BadRequest();
             }
-           var rmProduct = await _stockService.Delete(productId.Value,storeId.Value);
+            var rmProduct = await _stockService.Delete(productId.Value,storeId.Value);
             if (rmProduct)
             {
                 TempData["Successfuly"] = _localizer.GetLocalizedString("msg_DeleteSuccessfuly").ToString();
