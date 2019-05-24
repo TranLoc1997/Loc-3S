@@ -1,8 +1,6 @@
-﻿@using Microsoft.AspNetCore.Http
-@using Microsoft.AspNetCore.Mvc.Localization
+﻿@using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer Localizer
-@if (Context.Session.GetString("name") != null)
-{
+
   <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
     <div class="navbar-brand-wrapper d-flex justify-content-center">
       <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
@@ -30,7 +28,7 @@
         <li class="nav-item nav-profile dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
             <img src="~/images/faces/face5.jpg" alt="profile"/>
-            <span class="nav-profile-name">@Context.Session.GetString("name")</span>
+            <span class="nav-profile-name">@User.Identity.Name</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
             <a class="dropdown-item">
@@ -49,23 +47,3 @@
       </button>
     </div>
   </nav>   
-}
-else
-{
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav flex-grow-1">
-        <li class="nav-item">
-
-          <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="IndexLogin">
-            <img src="~/img/Login.png" alt="Smiley face" height="40" width="40">
-          </a>
-        </li>
-      </ul>     
-    </div>
-  </nav>  
-
-}

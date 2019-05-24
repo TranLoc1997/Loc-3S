@@ -9,8 +9,8 @@ using TaskUser.Models;
 namespace TaskUser.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20190522083523_AddUserRole")]
-    partial class AddUserRole
+    [Migration("20190524033914_AddRole")]
+    partial class AddRole
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -247,7 +247,7 @@ namespace TaskUser.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<string>("Role");
+                    b.Property<int>("Role");
 
                     b.Property<int>("StoreId");
 
@@ -264,9 +264,9 @@ namespace TaskUser.Migrations
                             Email = "Vanloc@gmail.com",
                             IsActiver = true,
                             Name = "Loc",
-                            PassWord = "20:ADNL8SgakrmgTqLoZIu0zy10UZawnIZCAP4=",
+                            PassWord = "20:IzUTWWVHY7Kr8uMis2MpmoAMVfJIpoROHkE=",
                             Phone = "123456789",
-                            Role = "Admin",
+                            Role = 1,
                             StoreId = 1
                         },
                         new
@@ -275,9 +275,9 @@ namespace TaskUser.Migrations
                             Email = "Vanloc1@gmail.com",
                             IsActiver = true,
                             Name = "Loc",
-                            PassWord = "20:MlweUK/3YOr7rDuxeNYDDfuRLxe1Y97zL08=",
+                            PassWord = "20:6wjMBj/PeqI9u2dunQEVhNMpVQzuajckNl0=",
                             Phone = "123456789",
-                            Role = "User",
+                            Role = 2,
                             StoreId = 2
                         });
                 });
@@ -311,7 +311,7 @@ namespace TaskUser.Migrations
             modelBuilder.Entity("TaskUser.Models.Sales.User", b =>
                 {
                     b.HasOne("TaskUser.Models.Sales.Store", "Store")
-                        .WithMany("users")
+                        .WithMany("Users")
                         .HasForeignKey("StoreId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

@@ -60,7 +60,7 @@ namespace TaskUser.Models
             modelBuilder.Entity<Stock>().Property(t => t.ProductId).IsRequired().HasMaxLength(255);
             modelBuilder.Entity<Stock>().Property(t => t.Quantity).IsRequired();
             
-           // ForeignKey
+            // ForeignKey
             modelBuilder.Entity<User>().HasOne(s => s.Store).WithMany(g => g.Users).HasForeignKey(s => s.StoreId);
             
             modelBuilder.Entity<Product>().HasOne(s => s.Categorie).WithMany(g => g.Products).HasForeignKey(s => s.CategoryId);
@@ -82,10 +82,10 @@ namespace TaskUser.Models
                     Name = "Loc",
                     StoreId=1,
                     Phone = "123456789",
-                    Role = "Admin",
+                    Role = 1,
                     IsActiver = true
                 },
-            new User()
+                new User()
                 {
                     Id = 2,
                     Email = "Vanloc1@gmail.com",
@@ -93,7 +93,7 @@ namespace TaskUser.Models
                     Name = "Loc",
                     StoreId=2,
                     Phone = "123456789",
-                    Role = "User",
+                    Role = 2,
                     IsActiver = true
                 }
             );

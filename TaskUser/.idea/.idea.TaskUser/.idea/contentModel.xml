@@ -26,10 +26,8 @@
         <e p="20190520080547_DbContext.cs" t="Include" />
         <e p="20190522075740_dbcontex1.Designer.cs" t="Include" />
         <e p="20190522075740_dbcontex1.cs" t="Include" />
-        <e p="20190522083523_AddUserRole.Designer.cs" t="Include" />
-        <e p="20190522083523_AddUserRole.cs" t="Include" />
-        <e p="20190523035207_AddFrKey.Designer.cs" t="Include" />
-        <e p="20190523035207_AddFrKey.cs" t="Include" />
+        <e p="20190524033914_AddRole.Designer.cs" t="Include" />
+        <e p="20190524033914_AddRole.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

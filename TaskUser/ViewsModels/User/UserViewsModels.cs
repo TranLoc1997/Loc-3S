@@ -9,7 +9,12 @@
         public string PassWord { get; set; }
         public string Phone { get; set; }
         public bool IsActiver { get; set;}
-        public string Role { get; set; }
+        public RoleName Role { get; set; }
+        public enum RoleName
+        {
+            Admin = 1,
+            User = 2
+        }
         
         public virtual Models.Sales.Store Store { get; set; }
     }

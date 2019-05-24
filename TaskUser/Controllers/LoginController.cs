@@ -47,17 +47,32 @@ namespace TaskUser.Controllers
         {
             if (ModelState.IsValid)
             
-            {    
+            {
+                
                 var user = _userService.Login(model.Email, model.PassWord);
+                
                 if (user)
                 {
                     var name = _userService.GetName(model.Email);
+
+                    var role = "";
+                    if (name.Role == 1)
+                    {
+                        role = "Admin";
+                    }
+                    else
+                    {
+                        role = "User";
+                    }
+                    
                     var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.Name, model.Email),
-                        new Claim("FullName", model.Email),
-                        new Claim(ClaimTypes.Role, name.Role)
+                        new Claim(ClaimTypes.Name, name.Name),
+                        new Claim("FullName", name.Email),
+                        new Claim(ClaimTypes.Role, role),
+//                        new Claim(ClaimTypes.Role, "User")
                     };
+                    
                     var claimsIdentity = new ClaimsIdentity(
                         claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var authProperties = new AuthenticationProperties();
@@ -65,10 +80,12 @@ namespace TaskUser.Controllers
                         CookieAuthenticationDefaults.AuthenticationScheme, 
                         new ClaimsPrincipal(claimsIdentity), 
                         authProperties);
-                    HttpContext.Session.SetString("name",name.Name);
+                    
+//                    HttpContext.Authentication.SignInAsync("name",name.Name);
                     return RedirectToAction("Index", "Store");
                     
                 }
+                
             }
             return View(model);
 

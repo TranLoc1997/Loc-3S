@@ -105,7 +105,7 @@ namespace TaskUser.Service
                     PassWord =SecurePasswordHasher.Hash(user.PassWord),
                     Phone = user.Phone,
                     StoreId = user.StoreId,
-                    Role = user.Role,
+                    Role = Convert.ToInt32(user. Role),
                     IsActiver = user.IsActiver
                 };
             

@@ -245,7 +245,7 @@ namespace TaskUser.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<string>("Role");
+                    b.Property<int>("Role");
 
                     b.Property<int>("StoreId");
 
@@ -262,9 +262,9 @@ namespace TaskUser.Migrations
                             Email = "Vanloc@gmail.com",
                             IsActiver = true,
                             Name = "Loc",
-                            PassWord = "20:B0kSQJNzlKXOY7zBC9P+65aOVJUjWXpOd/Q=",
+                            PassWord = "20:IzUTWWVHY7Kr8uMis2MpmoAMVfJIpoROHkE=",
                             Phone = "123456789",
-                            Role = "Admin",
+                            Role = 1,
                             StoreId = 1
                         },
                         new
@@ -273,9 +273,9 @@ namespace TaskUser.Migrations
                             Email = "Vanloc1@gmail.com",
                             IsActiver = true,
                             Name = "Loc",
-                            PassWord = "20:HezTL5Xu2PLFB7jCv2iMXbPOuAC5aIKMmrU=",
+                            PassWord = "20:6wjMBj/PeqI9u2dunQEVhNMpVQzuajckNl0=",
                             Phone = "123456789",
-                            Role = "User",
+                            Role = 2,
                             StoreId = 2
                         });
                 });
