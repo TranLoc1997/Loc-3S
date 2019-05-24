@@ -1,4 +1,5 @@
-﻿@model TaskUser.ViewsModels.User.EditUserViewsModels
+﻿@using TaskUser.ViewsModels.User
+@model TaskUser.ViewsModels.User.EditUserViewsModels
 
 
 @{
@@ -47,6 +48,13 @@
             <select class="form-control" asp-for="StoreId" asp-items="@ViewBag.StoreId">
                 @* <option asp-for="StoreId" >@ViewBag.StoreId[""]</option> *@
             </select>
+            <span asp-validation-for="StoreId"></span>
+        </div>
+        <div class="form-group col-xs-6">
+            <label> @UserLocalizer.GetLocalizedString("lbl_Role")</label>
+            <select class="form-control" asp-for="Role" asp-items="Html.GetEnumSelectList<EditUserViewsModels.RoleName>()">
+            </select>
+            @* <input type="text" class="form-control" asp-for="Role" placeholder="Role" required/> *@
             <span asp-validation-for="StoreId"></span>
         </div>
         <div id="hidden-other-subject" class="form-group col-xs-6 hidden">

@@ -43,11 +43,12 @@ namespace TaskUser.Service
         {
             return _context.Brands;
         } 
+        
         /// <summary>
         /// list brand service
         /// </summary>
         /// <returns>listBrand</returns>
-        public async Task<List<BrandViewsModels>> GetBranListAsync()//
+        public async Task<List<BrandViewsModels>> GetBranListAsync()
         {
             var list = await _context.Brands.ToListAsync();
             var listBrand = _mapper.Map<List<BrandViewsModels>>(list);
@@ -138,9 +139,7 @@ namespace TaskUser.Service
             {
                 Console.WriteLine(e);
                 return false;
-            }
-            
-        }
-//        
+            }           
+        }       
     }
 }

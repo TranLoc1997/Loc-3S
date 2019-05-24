@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using TaskUser.Models;
 using TaskUser.Service;
 using TaskUser.ViewsModels.User;
 
@@ -19,7 +18,6 @@ namespace TaskUser.Controllers
 
         public LoginController
         (
-            DataContext context,
             IUserService userService
         )
         
@@ -54,7 +52,6 @@ namespace TaskUser.Controllers
                 if (user)
                 {
                     var name = _userService.GetName(model.Email);
-
                     var role = "";
                     if (name.Role == 1)
                     {
@@ -79,16 +76,12 @@ namespace TaskUser.Controllers
                     await HttpContext.SignInAsync(
                         CookieAuthenticationDefaults.AuthenticationScheme, 
                         new ClaimsPrincipal(claimsIdentity), 
-                        authProperties);
-                    
+                        authProperties);   
 //                    HttpContext.Authentication.SignInAsync("name",name.Name);
-                    return RedirectToAction("Index", "Store");
-                    
-                }
-                
+                    return RedirectToAction("Index", "Store");        
+                }     
             }
             return View(model);
-
         }
         
         /// <summary>

@@ -148,6 +148,7 @@ namespace TaskUser.Service
                 user.Email = userParam.Email;
                 user.Phone = userParam.Phone;
                 user.IsActiver = userParam.IsActiver;
+                user.Role = Convert.ToInt32(userParam.Role);
                 user.StoreId = userParam.StoreId;
                 _context.Users.Update(user);
                 await _context.SaveChangesAsync();
@@ -158,8 +159,8 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-
         }
+        
         /// <summary>
         /// get password
         /// </summary>

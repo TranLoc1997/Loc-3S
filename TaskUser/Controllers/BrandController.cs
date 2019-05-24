@@ -17,18 +17,18 @@ namespace TaskUser.Controllers
         {
             _brandService = brandService;
             _localizer = localizer;
-            
         }
+        
         /// <summary>
         /// show index brand
         /// </summary>
-        /// <returns>viewbrand</returns>
-    
+        /// <returns>viewbrand</returns>   
         public async Task<IActionResult> Index()
         {
             var listBrand = await _brandService.GetBranListAsync();
             return View(listBrand);
         }
+        
         /// <summary>
         /// get create brand
         /// </summary>
@@ -38,6 +38,7 @@ namespace TaskUser.Controllers
         {
             return View();
         }
+        
         /// <summary>
         /// Post create brand
         /// </summary>
@@ -59,6 +60,7 @@ namespace TaskUser.Controllers
             }
             return View(brand);
         }
+        
         /// <summary>
         /// get edit brand
         /// </summary>
@@ -72,9 +74,9 @@ namespace TaskUser.Controllers
                 return NotFound();
             }
             var getBrand = await _brandService.GetIdbrandAsync(id.Value);
-           
             return View(getBrand);
         }
+        
         /// <summary>
         /// Post Edit Brand
         /// </summary>

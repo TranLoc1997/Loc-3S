@@ -57,7 +57,6 @@
         <div class="form-group col-xs-6">
             <label> @UserLocalizer.GetLocalizedString("lbl_Role")</label>
             <select class="form-control" asp-for="Role" asp-items="Html.GetEnumSelectList<UserViewsModels.RoleName>()">
-                
             </select>
             @* <input type="text" class="form-control" asp-for="Role" placeholder="Role" required/> *@
             <span asp-validation-for="StoreId"></span>
