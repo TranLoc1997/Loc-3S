@@ -41,7 +41,6 @@ namespace TaskUser.Controllers
                 return NotFound();
             }
             return View(listUser);
-
         }
         
         /// <summary>
@@ -54,7 +53,6 @@ namespace TaskUser.Controllers
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
             return View();
         }
-        
         /// <summary>
         /// post create  user
         /// </summary>
@@ -81,7 +79,6 @@ namespace TaskUser.Controllers
                 "Id", "StoreName",user.StoreId);
             return View(user);
         }
-        
         /// <summary>
         /// get edit of user
         /// </summary>
@@ -99,7 +96,6 @@ namespace TaskUser.Controllers
             {
                 return BadRequest();
             }
-            
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
             return View(findUser);
         }
@@ -127,7 +123,6 @@ namespace TaskUser.Controllers
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName",userParam.StoreId);
             return View(userParam);
         }
-
         /// <summary>
         /// get edit password 
         /// </summary>
@@ -140,7 +135,6 @@ namespace TaskUser.Controllers
             var findPassword = await _userService.GetPasswordAsync(id.Value);
             return PartialView("_ChangePassword", findPassword);
         }
-
         /// <summary>
         /// post edit password
         /// </summary>
@@ -162,7 +156,6 @@ namespace TaskUser.Controllers
             }
             return PartialView("_ChangePassword",passwordUser);
         }
-
         /// <summary>
         /// delete user
         /// </summary>
@@ -183,9 +176,6 @@ namespace TaskUser.Controllers
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
             return RedirectToAction("Index");
-            
         }
-        
     }
-    
 }

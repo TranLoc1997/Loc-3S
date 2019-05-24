@@ -15,14 +15,12 @@ namespace TaskUser.Controllers
        
         private readonly ICategoryService _category;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
-        public CategoryController(ICategoryService category ,SharedViewLocalizer<CommonResource> localizer,SharedViewLocalizer<CategoryResource> categoryLocalizer)
+        public CategoryController(ICategoryService category ,SharedViewLocalizer<CommonResource> localizer)
         {
             _category = category;
             _localizer = localizer;
 
         }
-        
-        
         /// <summary>
         /// show category    
         /// </summary>
@@ -32,7 +30,6 @@ namespace TaskUser.Controllers
             var listCateogry = await _category.GetCategoryListAsync();
             return View(listCateogry);
         }
-        
         /// <summary>
         /// get create category    
         /// </summary>
@@ -42,7 +39,6 @@ namespace TaskUser.Controllers
         {
             return View();
         }
-        
         /// <summary>
         /// post create category
         /// </summary>
@@ -64,7 +60,6 @@ namespace TaskUser.Controllers
             }
             return View(category);
         }
-        
         /// <summary>
         /// get edit category
         /// </summary>
@@ -81,7 +76,6 @@ namespace TaskUser.Controllers
            
             return View(getCategory);
         }
-        
         /// <summary>
         /// post edit category
         /// </summary>
@@ -90,7 +84,6 @@ namespace TaskUser.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(CategoryViewsModels editCategory)
         {
-           
             if (ModelState.IsValid)
             {
                 var category = await _category.EditCategoryAsync(editCategory);
@@ -123,11 +116,9 @@ namespace TaskUser.Controllers
             {
                 TempData["Successfuly"] = _localizer.GetLocalizedString("msg_DeleteSuccessfuly").ToString();
                 return RedirectToAction("Index");
-                
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
             return RedirectToAction("Index");
-            
         }
     }
 }

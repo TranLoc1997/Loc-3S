@@ -6,8 +6,6 @@ namespace TaskUser.Models.Production
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
-//        [DisplayFormat(DataFormatString = "{0:0,0}")]
-        
         public string Picture { get; set; }
         public int BrandId { get; set; }
         public int CategoryId { get; set; }

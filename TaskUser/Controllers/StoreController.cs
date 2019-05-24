@@ -14,12 +14,11 @@ namespace TaskUser.Controllers
     {
         private readonly IStoreService _storeService;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
-        private readonly SharedViewLocalizer<StoreResource> _storeLocalizer;
-        public StoreController(IStoreService storeService,SharedViewLocalizer<CommonResource> localizer,SharedViewLocalizer<StoreResource> storeLocalizer)
+        public StoreController(IStoreService storeService,SharedViewLocalizer<CommonResource> localizer)
         {
             _storeService = storeService;
             _localizer = localizer;
-            _storeLocalizer = storeLocalizer;
+           
 
         }
         

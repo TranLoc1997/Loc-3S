@@ -165,5 +165,11 @@ namespace TaskUser.Resources {
                 return ResourceManager.GetString("msg_EmailAlreadyExists", resourceCulture);
             }
         }
+        
+        public static string lbl_Role {
+            get {
+                return ResourceManager.GetString("lbl_Role", resourceCulture);
+            }
+        }
     }
 }

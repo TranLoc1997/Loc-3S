@@ -186,4 +186,8 @@
       Email đã tồn tại
     </value>
   </data>
+  <data name="lbl_Role">
+    <value>
+      Vai Trò</value>
+  </data>
 </root>

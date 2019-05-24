@@ -132,8 +132,6 @@ namespace TaskUser.Service
             var findUser=await _context.Users.FindAsync(id);
             var userDtos = _mapper.Map<EditUserViewsModels>(findUser);
             return userDtos;
-          
-          
         }
         /// <summary>
         /// post edit user  
@@ -160,7 +158,6 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
 
         }
         /// <summary>

@@ -17,7 +17,6 @@ namespace TaskUser.Controllers
         private readonly IBrandService _brandService;
         private readonly ICategoryService _categoryService;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
-        private readonly SharedViewLocalizer<ProductResource> _productLocalizer;
         public ProductController(IProductService productService,
             IBrandService brandService,
             ICategoryService categoryService,
@@ -29,7 +28,7 @@ namespace TaskUser.Controllers
             _brandService = brandService;
             _categoryService = categoryService;
             _localizer = localizer;
-            _productLocalizer = productLocalizer;
+            
 
         }
         
@@ -73,16 +72,12 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
-                ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
-                    "Id", "CategoryName",product.CategoryId);  
-                ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
-                    "Id", "BrandName",product.BrandId);
+                ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), "Id", "CategoryName",product.CategoryId);  
+                ViewBag.BrandId = new SelectList(_brandService.Getbrand(), "Id", "BrandName",product.BrandId);
                 return View(product);
             }
-            ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
-                "Id", "CategoryName",product.CategoryId);  
-            ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
-                "Id", "BrandName",product.BrandId);
+            ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), "Id", "CategoryName",product.CategoryId);  
+            ViewBag.BrandId = new SelectList(_brandService.Getbrand(), "Id", "BrandName",product.BrandId);
             return View(product);
         }
         

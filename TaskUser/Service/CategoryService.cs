@@ -37,7 +37,6 @@ namespace TaskUser.Service
             _context = context;
             _mapper = mapper;
         }
-        
         /// <summary>
         /// show category list
         /// </summary>
@@ -48,7 +47,6 @@ namespace TaskUser.Service
             var listCategory = _mapper.Map<List<CategoryViewsModels>>(list);
             return listCategory;
         }
-        
         /// <summary>
         ///  create category service
         /// </summary>
@@ -62,7 +60,6 @@ namespace TaskUser.Service
                 {
                     CategoryName = addCategory.CategoryName
                 };
-            
                 _context.Categories.Add(category);
                 await _context.SaveChangesAsync();
                 return true;
@@ -73,13 +70,10 @@ namespace TaskUser.Service
                 return false;
             }
         }
-        
-    
         public IEnumerable<Category> GetCategory()
         {
             return _context.Categories;
         }
-        
         /// <summary>
         /// get id category edit 
         /// </summary>
@@ -91,7 +85,6 @@ namespace TaskUser.Service
             var categoryDtos = _mapper.Map<CategoryViewsModels>(findCategory);
             return categoryDtos;
         }
-        
         /// <summary>
         /// post edit category
         /// </summary>
@@ -108,15 +101,12 @@ namespace TaskUser.Service
                 _context.Categories.Update(category);
                 await _context.SaveChangesAsync();
                 return true;
-
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
                 return false;
             }
-            
-
         }
         public bool IsExistedName(int id,string name)
         {
@@ -141,8 +131,6 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
         }
-        
     }
 }

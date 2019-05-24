@@ -51,8 +51,7 @@
     <data name="btn_Stock">
         <value>
             Stock
-        </value>
-        
+        </value>       
         
     </data>
     <data name="msg_DeleteSuccessfuly">
@@ -73,17 +72,17 @@
    
     <data name="err_AddFailure">
         <value>
-            Thêm Thất Bại
+            Add Failure
         </value>
     </data>
     <data name="err_EditFailure">
         <value>
-            Sửa Thất Bại
+            Edit Failure
         </value>
     </data>
     <data name="err_DeleteFailure">
         <value>
-            Xóa Thất Bại
+            Delete Failure
         </value>
     </data>
     <data name="btn_Edit">

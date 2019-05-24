@@ -45,7 +45,6 @@ namespace TaskUser.Service
             var listProduct = _mapper.Map<List<ProductViewsModels>>(list);
             return listProduct;
         }
-        
         public IEnumerable<Product>  GetProduct()
         {
             return _context.Products;
@@ -63,7 +62,6 @@ namespace TaskUser.Service
                 using ( var stream = new FileStream(path,FileMode.Create))
                 {
                     await addProduct.PictureFile.CopyToAsync(stream);
-                
                 }
                 var product = new Product()
                 {
@@ -83,11 +81,7 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
-            
-            
         }
-        
         /// <summary>
         /// edit get product
         /// </summary>
@@ -116,12 +110,14 @@ namespace TaskUser.Service
                 
                 }
                 var product =await _context.Products.FindAsync(editProduct.Id);
+                {
                 product.BrandId = editProduct.BrandId;
                 product.CategoryId = editProduct.CategoryId;
                 product.ProductName = editProduct.ProductName;
                 product.Picture = editProduct.PictureFile.FileName;
                 product.ModelYear = editProduct.ModelYear;
                 product.ListPrice = editProduct.ListPrice;
+                }
                 _context.Products.Update(product);
                 await _context.SaveChangesAsync();
                 return true;
@@ -131,8 +127,6 @@ namespace TaskUser.Service
                 Console.WriteLine(e);
                 return false;
             }
-            
-
         }
         /// <summary>
         /// delete product

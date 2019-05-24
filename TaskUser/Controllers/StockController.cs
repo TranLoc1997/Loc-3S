@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using TaskUser.Filters;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Stock;
@@ -21,19 +20,16 @@ namespace TaskUser.Controllers
         private readonly IStoreService _storeService;
         private readonly IProductService _productService;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
-        private readonly SharedViewLocalizer<StockResource> _stockLocalizer;
         public StockController(IStockService stockService,
             IStoreService storeService,
             IProductService productService,
-            SharedViewLocalizer<CommonResource> localizer,
-            SharedViewLocalizer<StockResource> stockLocalizer
+            SharedViewLocalizer<CommonResource> localizer
         )
         {
             _stockService = stockService;
             _storeService = storeService;
             _productService = productService;
             _localizer = localizer;
-            _stockLocalizer = stockLocalizer;
         }
         
         
@@ -82,7 +78,6 @@ namespace TaskUser.Controllers
                     "Id", "StoreName",stock.ProductId);
                 return View(stock);
             }
-            
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), 
                 "Id", "StoreName",stock.StoreId);
             ViewBag.ProductID = new SelectList(_productService.GetProduct(), 
@@ -104,10 +99,7 @@ namespace TaskUser.Controllers
             var getStock = await _stockService.GetIdStockAsync(productId.Value, storeId.Value);
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
             ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
-           
             return View(getStock);
-
-
         }
         
         /// <summary>
@@ -118,7 +110,6 @@ namespace TaskUser.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(StockViewModels editStock)
         {
-           
             if (ModelState.IsValid)
             {
                 var product= await _stockService.EditStockAsync(editStock);
@@ -131,14 +122,11 @@ namespace TaskUser.Controllers
                 ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
                 ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
                 return View(editStock);
-               
             }
-            
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
             ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
             return View(editStock);
         }
-        
         /// <summary>
         /// delete stock
         /// </summary>
@@ -161,10 +149,6 @@ namespace TaskUser.Controllers
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
             return RedirectToAction("Index");
-            
-            
-           
         }
-        
     }
 }

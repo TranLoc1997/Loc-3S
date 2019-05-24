@@ -187,4 +187,8 @@
       Email Already Exists
     </value>
   </data>
+  <data name="lbl_Role">
+    <value>
+      Role</value>
+  </data>
 </root>

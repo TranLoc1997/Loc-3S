@@ -14,7 +14,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using TaskUser.Filters;
 using TaskUser.Models;
 using TaskUser.Resources;
 using TaskUser.Service;
@@ -89,20 +88,7 @@ namespace TaskUser
 //            });
 
             #endregion
-            services.AddLocalization(options => options.ResourcesPath = "Resources");
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                    {
-                        options.AccessDeniedPath = new PathString("/Error/401");
-                        options.LoginPath = new PathString("/Error/401");
-                        options.ReturnUrlParameter = "RequestPath";
-                        options.SlidingExpiration = true;
-                    }
-                    
-                );
-
-
-
+            services.AddAutoMapper();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IStoreService, StoreService>();
             services.AddTransient<IProductService, ProductService>();
@@ -118,20 +104,24 @@ namespace TaskUser
             services.AddSingleton<SharedViewLocalizer<StoreResource>>();
             services.AddSingleton<SharedViewLocalizer<UserResource>>();
             services.AddSingleton<SharedViewLocalizer<PasswordResource>>();
-            
-            
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                    {
+                        options.AccessDeniedPath = new PathString("/Error/401");
+                        options.LoginPath = new PathString("/Login/LoginIndex");
+                        options.ReturnUrlParameter = "RequestPath";
+                        options.SlidingExpiration = true;
+                    }
+                );
             services.AddTransient<DbContext>();
-            services.AddAutoMapper();
-            services.AddScoped<ActionFilter>();
+           
+//            services.AddScoped<ActionFilter>();
             services.AddHttpContextAccessor();
-          
+            services.AddDbContext<DataContext>(item => item.UseSqlServer(Configuration.GetConnectionString("userscontext")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<BrandValidator>()
                 );
-            services.AddDbContext<DataContext>(item => item.UseSqlServer(Configuration.GetConnectionString("userscontext")));
-
-
-
         }
        
 
@@ -151,13 +141,9 @@ namespace TaskUser
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
             app.UseSession();
+            
             app.UseAuthentication();
-            #region snippet2
-            var options = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
-            app.UseRequestLocalization(options.Value);
-            #endregion
             app.Use(async (context, next) =>
             {
                 await next();
@@ -171,10 +157,17 @@ namespace TaskUser
                         await next();
                     }
                     else if (context.Response.StatusCode == StatusCodes.Status404NotFound)
-                        context.Request.Path = "/Error/404";
-                        await next();
+                     {
+                         context.Request.Path = "/Error/404";
+                         await next();
+                     }
+                        
                 } 
             });
+            #region snippet2
+            var options = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(options.Value);
+            #endregion
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -182,6 +175,7 @@ namespace TaskUser
                     template: "{controller=Login}/{action=IndexLogin}/{id?}");
                  
             });
+            app.UseCookiePolicy();   
             
         }
          

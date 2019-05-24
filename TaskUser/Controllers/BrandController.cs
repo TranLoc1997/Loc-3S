@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using TaskUser.Models;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Brand;
@@ -13,19 +12,13 @@ namespace TaskUser.Controllers
     public class BrandController : Controller
     {
         private readonly IBrandService _brandService;
-        private readonly DataContext _context;
         private readonly SharedViewLocalizer<CommonResource> _localizer;
-        private readonly SharedViewLocalizer<BrandResource> _brandLocalizer;
-        public BrandController(IBrandService  brandService,SharedViewLocalizer<CommonResource> localizer,SharedViewLocalizer<BrandResource> brandLocalizer,DataContext context)
+        public BrandController(IBrandService  brandService,SharedViewLocalizer<CommonResource> localizer)
         {
             _brandService = brandService;
-            _brandLocalizer = brandLocalizer;
             _localizer = localizer;
-            _context = context;
-
+            
         }
-        
-   
         /// <summary>
         /// show index brand
         /// </summary>
@@ -35,11 +28,7 @@ namespace TaskUser.Controllers
         {
             var listBrand = await _brandService.GetBranListAsync();
             return View(listBrand);
-
         }
-        
-
-        
         /// <summary>
         /// get create brand
         /// </summary>
@@ -49,7 +38,6 @@ namespace TaskUser.Controllers
         {
             return View();
         }
-        
         /// <summary>
         /// Post create brand
         /// </summary>
@@ -71,7 +59,6 @@ namespace TaskUser.Controllers
             }
             return View(brand);
         }
-        
         /// <summary>
         /// get edit brand
         /// </summary>
@@ -88,7 +75,6 @@ namespace TaskUser.Controllers
            
             return View(getBrand);
         }
-        
         /// <summary>
         /// Post Edit Brand
         /// </summary>
@@ -104,7 +90,6 @@ namespace TaskUser.Controllers
                 {
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_EditSuccessfuly").ToString();
                     return RedirectToAction("Index");
-                
                 }
                 ViewData["EditFailure"] = _localizer.GetLocalizedString("err_EditFailure");
                 return View(editBrand);
@@ -125,7 +110,6 @@ namespace TaskUser.Controllers
             {
                 return BadRequest();
             }
-            
             var brand = await _brandService.Delete(id.Value);
             if (brand)
             {

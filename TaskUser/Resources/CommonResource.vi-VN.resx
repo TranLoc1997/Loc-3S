@@ -53,14 +53,29 @@
             Quản Lý
         </value>
     </data>
-    <data name="msg_AddSuccessfuly">
+    <data name="msg_AddSuccessfuly">        
         <value>
             Thêm Thành Công 
         </value>
     </data>
-    <data name="msg_EditSuccessfuly">
+    <data name="msg_EditSuccessfuly">        
         <value>
-            Sửa Thành Công
+            Thêm Thành Công 
+        </value>
+    </data>
+    <data name="err_AddFailure">
+        <value>
+            Thêm Thất Bại 
+        </value>
+    </data>
+    <data name="err_EditFailure">
+        <value>
+            Sửa Thất Bại 
+        </value>
+    </data>
+    <data name="err_DeleteFailure">
+        <value>
+            Xóa Thất Bại 
         </value>
     </data>
     <data name="msg_DeleteSuccessfuly">
@@ -68,22 +83,6 @@
             Xóa Thành Công
         </value>
     </data>
-    <data name="err_AddFailure">
-        <value>
-            Thêm Thất Bại
-        </value>
-    </data>
-    <data name="err_EditFailure">
-        <value>
-            Sửa Thất Bại
-        </value>
-    </data>
-    <data name="err_DeleteFailure">
-        <value>
-            Xóa Thất Bại
-        </value>
-    </data>
-    
     <data name="btn_Edit">
         <value>Sửa</value>
     </data>
@@ -93,4 +92,5 @@
     <data name="btn_GoBackToTheMainPage">
         <value>Quay lại trang chính</value>
     </data>
+    
 </root>

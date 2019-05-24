@@ -10,7 +10,6 @@
 <div class="container">
     <form method="post" asp-controller="Product" enctype="multipart/form-data" asp-action="Create">
        <legend>@ProductLocalizer.GetLocalizedString("lbl_AddProduct")</legend>
-        @*<input type="hidden" class="form-control" asp-for="Id"  placeholder="Your name" required>*@
         <div class="form-group col-xs-6">
             <label>@ProductLocalizer.GetLocalizedString("lbl_BrandId")</label>
             <select class="form-control" asp-for="BrandId" asp-items="@ViewBag.BrandId">

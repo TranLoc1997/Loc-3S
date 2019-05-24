@@ -149,7 +149,7 @@
           <e p="_LayoutLogin.cshtml" t="Include" />
           <e p="_SibaPartial.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
-          <e p="_msgLayout.cshtml" t="Include" />
+          <e p="_msgController.cshtml" t="Include" />
         </e>
         <e p="Stock" t="Include">
           <e p="Create.cshtml" t="Include" />
@@ -514,6 +514,7 @@
           <e p="Stock.png" t="Include" />
           <e p="Store.png" t="Include" />
           <e p="Store1.png" t="Include" />
+          <e p="TranVanLoc_SQL.pdf" t="Include" />
           <e p="_language.png" t="Include" />
           <e p="add.png" t="Include" />
           <e p="addStore.png" t="Include" />
@@ -540,6 +541,7 @@
           <e p="logo.png" t="Include" />
           <e p="uppassword.png" t="Include" />
           <e p="vi-VN.png" t="Include" />
+          <e p="web.png" t="Include" />
         </e>
         <e p="js" t="Include">
           <e p="Chart.min.js" t="Include" />

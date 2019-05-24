@@ -39,14 +39,10 @@ namespace TaskUser.Service
             _context = context;
             _mapper = mapper;
         }
-
         public IEnumerable<Brand> Getbrand()
         {
             return _context.Brands;
         } 
-
-        
-
         /// <summary>
         /// list brand service
         /// </summary>
@@ -70,7 +66,6 @@ namespace TaskUser.Service
                 {
                     BrandName = addBrand.BrandName
                 };
-            
                 _context.Brands.Add(brand);
                 await _context.SaveChangesAsync();
                 return true;
@@ -82,7 +77,6 @@ namespace TaskUser.Service
             }
             
         }
-        
         /// <summary>
         /// get edit brand service
         /// </summary>
@@ -139,7 +133,6 @@ namespace TaskUser.Service
                 _context.Brands.Remove(brand);
                 _context.SaveChanges();
                 return true;
-
             }
             catch (Exception e)
             {

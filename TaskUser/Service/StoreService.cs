@@ -40,8 +40,6 @@ namespace TaskUser.Service
             _context = context;
             _mapper = mapper;
         }
-      
-
         /// <summary>
         /// get show store
         /// </summary>
@@ -53,12 +51,10 @@ namespace TaskUser.Service
             var listStore = _mapper.Map<List<StoreViewModels>>(list);
             return listStore;
         }
-
         public IEnumerable<Store> GetStore()
         {
             return _context.Stores;
         } 
-        
         /// <summary>
         /// get create store
         /// </summary>
@@ -89,7 +85,6 @@ namespace TaskUser.Service
             }
             
         }  
-        
         /// <summary>
         /// get edit id store
         /// </summary>
@@ -128,7 +123,6 @@ namespace TaskUser.Service
                 return false;
             }
         }
-        
         /// <summary>
         /// ckeck email
         /// </summary>

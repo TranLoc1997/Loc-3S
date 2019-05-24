@@ -37,7 +37,6 @@ namespace TaskUser.Service
             _context = context;
             _mapper = mapper;
         }
-
         /// <summary>
         /// get show list stock
         /// </summary>
@@ -48,7 +47,6 @@ namespace TaskUser.Service
             var listStock = _mapper.Map<List<StockViewModels>>(list);
             return listStock;
         }
-
         public IEnumerable<Stock> GetStock()
         {
             return _context.Stocks;
