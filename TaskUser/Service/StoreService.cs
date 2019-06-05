@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Models;
 using TaskUser.Models.Sales;
 using TaskUser.ViewsModels.Store;
@@ -80,7 +81,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add Store Async Error: {0}",e.Message);
                 return false;
             }
             
@@ -119,7 +120,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Store Async Error: {0}",e.Message);
                 return false;
             }
         }
@@ -155,7 +156,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete Store Async Error: {0}",e.Message);
                 return false;
             }
             

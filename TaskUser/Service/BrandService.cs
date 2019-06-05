@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Models;
 using TaskUser.Models.Production;
 using TaskUser.ViewsModels.Brand;
@@ -73,7 +74,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add Brand Async Error: {0}",e.Message);
                 return false;
             }
             
@@ -106,7 +107,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Brand Async Error: {0}",e.Message);
                 return false;
             }
         }
@@ -137,7 +138,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete Brand Async Error: {0}",e.Message);
                 return false;
             }           
         }       

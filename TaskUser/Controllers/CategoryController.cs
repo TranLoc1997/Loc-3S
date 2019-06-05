@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Category;
@@ -56,8 +57,10 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["EditFailure"] = _localizer.GetLocalizedString("err_AddFailure");
+                Log.Error("Add category error ");
                 return View(category);
             }
+            Log.Error("Add category error ");
             return View(category);
         }
         /// <summary>
@@ -93,8 +96,10 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["EditFailure"] = _localizer.GetLocalizedString("err_EditFailure");
+                Log.Error("Edit category error ");
                 return View(editCategory);
             }
+            Log.Error("Edit category error ");
             return View(editCategory);
         }
         
@@ -118,6 +123,7 @@ namespace TaskUser.Controllers
                 return RedirectToAction("Index");
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
+            Log.Error("Delete category error ");
             return RedirectToAction("Index");
         }
     }

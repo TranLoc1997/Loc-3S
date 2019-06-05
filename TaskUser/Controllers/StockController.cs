@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Serilog;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Stock;
@@ -76,12 +77,14 @@ namespace TaskUser.Controllers
                     "Id", "StoreName",stock.StoreId);
                 ViewBag.ProductID = new SelectList(_productService.GetProduct(), 
                     "Id", "StoreName",stock.ProductId);
+                Log.Error("Add Stock error ");
                 return View(stock);
             }
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), 
                 "Id", "StoreName",stock.StoreId);
             ViewBag.ProductID = new SelectList(_productService.GetProduct(), 
                 "Id", "StoreName",stock.ProductId);
+            Log.Error("Add Stock error ");
             return View(stock);
         }
         
@@ -121,10 +124,12 @@ namespace TaskUser.Controllers
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
                 ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
                 ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
+                Log.Error("Edit Stock error ");
                 return View(editStock);
             }
             ViewBag.StoreId = new SelectList(_storeService.GetStore(), "Id", "StoreName");
             ViewBag.ProductID = new SelectList(_productService.GetProduct(), "Id", "ProductName");
+            Log.Error("Edit Stock error ");
             return View(editStock);
         }
         /// <summary>
@@ -148,6 +153,7 @@ namespace TaskUser.Controllers
                 return RedirectToAction("Index");
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
+            Log.Error("Delete Stock error ");
             return RedirectToAction("Index");
         }
     }

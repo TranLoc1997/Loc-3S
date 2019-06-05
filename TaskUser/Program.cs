@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Events;
 using TaskUser.Models;
 
 namespace TaskUser
@@ -12,7 +14,17 @@ namespace TaskUser
     {
         
         public static void Main(string[] args)
-        {    
+        {   
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .WriteTo.Console()
+                .WriteTo.File("Logs/log.txt",
+                    rollingInterval: RollingInterval.Day,
+                    rollOnFileSizeLimit: true)
+                
+                .CreateLogger();
+            Log.Information("hello");
+            
             var host = CreateWebHostBuilder(args).Build();
             
 

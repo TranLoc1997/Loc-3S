@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using TaskUser.Filters;
 using TaskUser.Resources;
 using TaskUser.Service;
@@ -60,9 +61,11 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
+                Log.Error("Add store error ");
                 return View(store);
             }
-            
+            Log.Error("Add store error ");
+            ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
             return View(store);
         }
         
@@ -101,8 +104,10 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_EditFailure");
+                Log.Error("Edit store error");
                 return View(editStore);
             }
+            Log.Error("Edit store error");
             return View(editStore);
         }
         
@@ -126,6 +131,7 @@ namespace TaskUser.Controllers
                 return RedirectToAction("Index"); 
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
+            Log.Error("Delete store error");
             return RedirectToAction("Index");
             
         }

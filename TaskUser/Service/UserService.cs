@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Encryption;
 using TaskUser.Models;
 using TaskUser.Models.Sales;
@@ -24,7 +25,7 @@ namespace TaskUser.Service
         
         Task<bool> EditPasswordAsync(EditViewPassword passUser);
         
-        IEnumerable<User> GetUser();
+//        IEnumerable<User> GetUser();
         
         Task<EditUserViewsModels> GetIdAsync(int id);
         
@@ -85,10 +86,10 @@ namespace TaskUser.Service
             return listUser;
         }
 
-        public IEnumerable<User> GetUser()
-        {
-            return _context.Users;
-        } 
+//        public IEnumerable<User> GetUser()
+//        {
+//            return _context.Users;
+//        } 
         /// <summary>
         /// create user 
         /// </summary>
@@ -115,7 +116,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add User Async Error: {0}",e.Message);
                 return false;
             }  
            
@@ -156,7 +157,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit User Async Error: {0}",e.Message);
                 return false;
             }
         }
@@ -192,7 +193,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Password User Async Error: {0}",e.Message);
                 return false;
             }
             
@@ -214,7 +215,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete User Async Error: {0}",e.Message);
                 return false;
             }
             

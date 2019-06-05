@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Models;
 using TaskUser.Models.Production;
 using TaskUser.ViewsModels.Category;
@@ -66,7 +67,8 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add Category Async Error: {0}",e.Message);
+
                 return false;
             }
         }
@@ -104,7 +106,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Category Async Error: {0}",e.Message);
                 return false;
             }
         }
@@ -128,7 +130,8 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete Category Async Error: {0}",e.Message);
+
                 return false;
             }
         }

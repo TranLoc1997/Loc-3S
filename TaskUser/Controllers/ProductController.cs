@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Serilog;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Product;
@@ -74,10 +75,12 @@ namespace TaskUser.Controllers
                 ViewData["Failure"] = _localizer.GetLocalizedString("err_AddFailure");
                 ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), "Id", "CategoryName",product.CategoryId);  
                 ViewBag.BrandId = new SelectList(_brandService.Getbrand(), "Id", "BrandName",product.BrandId);
+                Log.Error("Add Product error ");
                 return View(product);
             }
             ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), "Id", "CategoryName",product.CategoryId);  
             ViewBag.BrandId = new SelectList(_brandService.Getbrand(), "Id", "BrandName",product.BrandId);
+            Log.Error("Add Product error ");
             return View(product);
         }
         
@@ -121,12 +124,14 @@ namespace TaskUser.Controllers
                     "Id", "CategoryName",editProduct.CategoryId);  
                 ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
                     "Id", "BrandName",editProduct.BrandId);
+                Log.Error("Edit Product error ");
                 return View(editProduct);
             }
             ViewBag.CategoryId = new SelectList(_categoryService.GetCategory(), 
                 "Id", "CategoryName",editProduct.CategoryId);  
             ViewBag.BrandId = new SelectList(_brandService.Getbrand(), 
                 "Id", "BrandName",editProduct.BrandId);
+            Log.Error("Edit Product error ");
             return View(editProduct);
         }
         
@@ -150,6 +155,7 @@ namespace TaskUser.Controllers
                 return RedirectToAction("Index");
             }
             TempData["Failure"] = _localizer.GetLocalizedString("err_DeleteFailure").ToString();
+            Log.Error("Delete Product error ");
             return RedirectToAction("Index");
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using TaskUser.Resources;
 using TaskUser.Service;
 using TaskUser.ViewsModels.Brand;
@@ -55,9 +56,11 @@ namespace TaskUser.Controllers
                     TempData["Successfuly"] = _localizer.GetLocalizedString("msg_AddSuccessfuly").ToString();
                     return RedirectToAction("Index");
                 }
+                Log.Error("Add user error ");
                 ViewData["EditFailure"] = _localizer.GetLocalizedString("err_AddFailure");
                 return View(brand);
             }
+            Log.Error("Add user error ");
             return View(brand);
         }
         
@@ -94,8 +97,10 @@ namespace TaskUser.Controllers
                     return RedirectToAction("Index");
                 }
                 ViewData["EditFailure"] = _localizer.GetLocalizedString("err_EditFailure");
+                Log.Error("Edit user error ");
                 return View(editBrand);
             }
+            Log.Error("Edit user error ");
             return View(editBrand);
         }
         
@@ -119,6 +124,7 @@ namespace TaskUser.Controllers
                 return RedirectToAction("Index");
             }
             TempData["EditFailure"] = _localizer.GetLocalizedString("err_Failure").ToString();
+            Log.Error("Delete user error ");
             return RedirectToAction("Index");
         }
     }

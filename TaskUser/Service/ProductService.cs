@@ -4,6 +4,7 @@ using System.IO;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Models;
 using TaskUser.Models.Production;
 using TaskUser.ViewsModels.Product;
@@ -78,7 +79,8 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add Product Async Error: {0}",e.Message);
+
                 return false;
             }
         }
@@ -124,7 +126,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Product Async Error: {0}",e.Message);
                 return false;
             }
         }
@@ -144,7 +146,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete Product Async Error: {0}",e.Message);
                 return false;
             }
         }

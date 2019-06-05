@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TaskUser.Models;
 using TaskUser.Models.Production;
 using TaskUser.ViewsModels.Stock;
@@ -84,7 +85,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Add Stock Async Error: {0}",e.Message);
                 return false;
             }
 
@@ -123,7 +124,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Edit Stock Async Error: {0}",e.Message);
                 return false;
             }
 
@@ -146,7 +147,7 @@ namespace TaskUser.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Log.Error("Delete Stock Async Error: {0}",e.Message);
                 return false;
             }
 
